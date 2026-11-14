@@ -8,7 +8,18 @@ namespace GameJam
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
+        
+        // Player
+        // private Player player;
         private Texture2D bubbleSprite;
+        private Vector2 bubblePosition;
+
+        // Enemy
+        // private EnemyManager enemyManager;
+
+        // Window Dimensions
+        private int windowWidth;
+        private int windowHeight;
 
 
         public Game1()
