@@ -82,3 +82,6 @@ C:\Users\natha\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\Con
 C:\Users\natha\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\Content\CanyonDesert-BGstatic.xnb
 C:\Users\natha\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\Content\needle.xnb
 C:\Users\natha\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\Content\water-texture.xnb
+E:\School Stuff\TraffikJam\GameJam\bin\Debug\net9.0\Content\bubble-character.xnb
+E:\School Stuff\TraffikJam\GameJam\bin\Debug\net9.0\Content\needle.xnb
+E:\School Stuff\TraffikJam\GameJam\bin\Debug\net9.0\Content\water-texture.xnb
