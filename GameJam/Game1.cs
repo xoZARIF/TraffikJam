@@ -12,7 +12,7 @@ namespace GameJam
         // Player
         // private Player player;
         private Texture2D bubbleSprite;
-        private Vector2 bubblePosition;
+        private Rectangle bubblePosition;
 
         // Enemy
         // private EnemyManager enemyManager;
@@ -39,8 +39,11 @@ namespace GameJam
         protected override void LoadContent()
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
+            int width = GraphicsDevice.Viewport.Width;
+            int height = GraphicsDevice.Viewport.Height;
             //test image loading
-            bubbleSprite = Content.Load<Texture2D>("CanyonDesert-BGstatic");
+            bubbleSprite = Content.Load<Texture2D>("bubble-character");
+            bubblePosition = new Rectangle((int)(width / 2), (int)(height / 2), (int)(bubbleSprite.Width * 0.5), (int)(bubbleSprite.Height * 0.5));
 
             // TODO: use this.Content to load your game content here
         }
@@ -50,6 +53,28 @@ namespace GameJam
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
+            KeyboardState currState = Keyboard.GetState();
+
+            int speed = 5;
+
+            if (currState.IsKeyDown(Keys.Down))
+            {
+                bubblePosition.Y += speed;
+            }
+            if (currState.IsKeyDown(Keys.Up))
+            {
+                bubblePosition.Y -= speed;
+            }
+            if (currState.IsKeyDown(Keys.Left))
+            {
+                bubblePosition.X -= speed;
+            }
+            if (currState.IsKeyDown(Keys.Right))
+            {
+                bubblePosition.X += speed;
+            }
+
+
             // TODO: Add your update logic here
 
             base.Update(gameTime);
@@ -58,6 +83,13 @@ namespace GameJam
         protected override void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
+
+            _spriteBatch.Begin();
+
+            _spriteBatch.Draw(bubbleSprite, bubblePosition, Color.White);
+
+            _spriteBatch.End();
+
 
             // TODO: Add your drawing code here
 

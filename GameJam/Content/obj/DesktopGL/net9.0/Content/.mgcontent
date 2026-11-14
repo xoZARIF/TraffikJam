@@ -4,11 +4,17 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>E:/School Stuff/TraffikJam/GameJam/Content/cacto run.png</File>
-    <File>E:/School Stuff/TraffikJam/GameJam/Content/CanyonDesert-BGstatic.png</File>
-    <File>E:/School Stuff/TraffikJam/GameJam/Content/TilesetPaid-CanyonDesertPlatformer.png</File>
+    <File>C:/Users/natha/OneDrive/Documents/GitHub/TraffikJam/GameJam/Content/bubble-character.png</File>
+    <File>C:/Users/natha/OneDrive/Documents/GitHub/TraffikJam/GameJam/Content/cacto run.png</File>
+    <File>C:/Users/natha/OneDrive/Documents/GitHub/TraffikJam/GameJam/Content/CanyonDesert-BGstatic.png</File>
+    <File>C:/Users/natha/OneDrive/Documents/GitHub/TraffikJam/GameJam/Content/needle.jpg</File>
+    <File>C:/Users/natha/OneDrive/Documents/GitHub/TraffikJam/GameJam/Content/TilesetPaid-CanyonDesertPlatformer.png</File>
+    <File>C:/Users/natha/OneDrive/Documents/GitHub/TraffikJam/GameJam/Content/water-texture.jpg</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
