@@ -8,6 +8,8 @@ namespace GameJam
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
+        private Texture2D bubbleSprite;
+
 
         public Game1()
         {
@@ -26,6 +28,8 @@ namespace GameJam
         protected override void LoadContent()
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
+            //test image loading
+            //bubbleSprite = Content.Load<Texture2D>("CanyonDesert-BGstatic");
 
             // TODO: use this.Content to load your game content here
         }
