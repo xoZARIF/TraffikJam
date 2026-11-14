@@ -1,2 +1,4 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
-"C:/Users/natha/OneDrive/Documents/GitHub/TraffikJam/GameJam/Content/TilesetPaid-CanyonDesertPlatformer.png","C:/Users/natha/OneDrive/Documents/GitHub/TraffikJam/GameJam/Content/bin/DesktopGL/Content/TilesetPaid-CanyonDesertPlatformer.xnb","TextureProcessor","Texture2DContent",18622,262229,0.2592217
+"E:/School Stuff/TraffikJam/GameJam/Content/cacto run.png","E:/School Stuff/TraffikJam/GameJam/Content/bin/DesktopGL/Content/cacto run.xnb","TextureProcessor","Texture2DContent",472,4181,0.084032
+"E:/School Stuff/TraffikJam/GameJam/Content/CanyonDesert-BGstatic.png","E:/School Stuff/TraffikJam/GameJam/Content/bin/DesktopGL/Content/CanyonDesert-BGstatic.xnb","TextureProcessor","Texture2DContent",15014,655445,0.0366437
+"E:/School Stuff/TraffikJam/GameJam/Content/TilesetPaid-CanyonDesertPlatformer.png","E:/School Stuff/TraffikJam/GameJam/Content/bin/DesktopGL/Content/TilesetPaid-CanyonDesertPlatformer.xnb","TextureProcessor","Texture2DContent",18622,262229,0.0197284

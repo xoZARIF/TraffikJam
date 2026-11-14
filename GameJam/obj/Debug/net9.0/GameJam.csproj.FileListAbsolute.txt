@@ -74,3 +74,5 @@ C:\Users\natha\OneDrive\Documents\GitHub\TraffikJam\GameJam\obj\Debug\net9.0\ref
 C:\Users\natha\OneDrive\Documents\GitHub\TraffikJam\GameJam\obj\Debug\net9.0\GameJam.pdb
 C:\Users\natha\OneDrive\Documents\GitHub\TraffikJam\GameJam\obj\Debug\net9.0\GameJam.genruntimeconfig.cache
 C:\Users\natha\OneDrive\Documents\GitHub\TraffikJam\GameJam\obj\Debug\net9.0\ref\GameJam.dll
+E:\School Stuff\TraffikJam\GameJam\bin\Debug\net9.0\Content\cacto run.xnb
+E:\School Stuff\TraffikJam\GameJam\bin\Debug\net9.0\Content\CanyonDesert-BGstatic.xnb

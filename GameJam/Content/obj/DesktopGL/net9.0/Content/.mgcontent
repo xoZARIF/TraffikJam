@@ -4,9 +4,13 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/natha/OneDrive/Documents/GitHub/TraffikJam/GameJam/Content/TilesetPaid-CanyonDesertPlatformer.png</File>
+    <File>E:/School Stuff/TraffikJam/GameJam/Content/cacto run.png</File>
+    <File>E:/School Stuff/TraffikJam/GameJam/Content/CanyonDesert-BGstatic.png</File>
+    <File>E:/School Stuff/TraffikJam/GameJam/Content/TilesetPaid-CanyonDesertPlatformer.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
   </DestFiles>
 </SourceFileCollection>

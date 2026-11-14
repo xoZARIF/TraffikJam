@@ -29,7 +29,7 @@ namespace GameJam
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
             //test image loading
-            //bubbleSprite = Content.Load<Texture2D>("CanyonDesert-BGstatic");
+            bubbleSprite = Content.Load<Texture2D>("CanyonDesert-BGstatic");
 
             // TODO: use this.Content to load your game content here
         }
