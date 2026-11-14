@@ -7,8 +7,8 @@
       "RelativeMoniker": "D:0:0:{7CC7D272-7950-48A6-A406-33A7F0606F8F}|GameJam.csproj|solutionrelative:game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CC7D272-7950-48A6-A406-33A7F0606F8F}|GameJam.csproj|e:\\school stuff\\traffikjam\\gamejam\\content\\content.mgcb||{3EC6CBD1-65BD-4B26-A758-3B207D048872}",
-      "RelativeMoniker": "D:0:0:{7CC7D272-7950-48A6-A406-33A7F0606F8F}|GameJam.csproj|solutionrelative:content\\content.mgcb||{3EC6CBD1-65BD-4B26-A758-3B207D048872}"
+      "AbsoluteMoniker": "D:0:0:{7CC7D272-7950-48A6-A406-33A7F0606F8F}|GameJam.csproj|e:\\school stuff\\traffikjam\\gamejam\\collisionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CC7D272-7950-48A6-A406-33A7F0606F8F}|GameJam.csproj|solutionrelative:collisionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7CC7D272-7950-48A6-A406-33A7F0606F8F}|GameJam.csproj|e:\\school stuff\\traffikjam\\gamejam\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "Game1.cs",
               "ToolTip": "E:\\School Stuff\\TraffikJam\\GameJam\\Game1.cs",
               "RelativeToolTip": "Game1.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAA1wBEAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAA7wCoAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-14T00:25:53.842Z",
               "IsPinned": true,
@@ -50,13 +50,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Content.mgcb",
-              "DocumentMoniker": "E:\\School Stuff\\TraffikJam\\GameJam\\Content\\Content.mgcb",
-              "RelativeDocumentMoniker": "Content\\Content.mgcb",
-              "ToolTip": "E:\\School Stuff\\TraffikJam\\GameJam\\Content\\Content.mgcb",
-              "RelativeToolTip": "Content\\Content.mgcb",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-11-14T22:49:41.256Z",
+              "Title": "CollisionManager.cs",
+              "DocumentMoniker": "E:\\School Stuff\\TraffikJam\\GameJam\\CollisionManager.cs",
+              "RelativeDocumentMoniker": "CollisionManager.cs",
+              "ToolTip": "E:\\School Stuff\\TraffikJam\\GameJam\\CollisionManager.cs",
+              "RelativeToolTip": "CollisionManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-14T22:51:55.864Z",
               "EditorCaption": "",
               "OwnerCaption": "%2"
             },
@@ -71,7 +72,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-14T22:48:59.962Z",
-              "EditorCaption": "",
               "OwnerCaption": "%2"
             },
             {
@@ -85,7 +85,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-14T22:48:55.798Z",
-              "EditorCaption": "",
               "OwnerCaption": "%2"
             },
             {
@@ -99,7 +98,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-14T00:25:50.258Z",
-              "EditorCaption": "",
               "OwnerCaption": "%2"
             }
           ]
