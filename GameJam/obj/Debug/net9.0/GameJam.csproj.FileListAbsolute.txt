@@ -35,3 +35,4 @@ E:\School Stuff\TraffikJam\GameJam\obj\Debug\net9.0\refint\GameJam.dll
 E:\School Stuff\TraffikJam\GameJam\obj\Debug\net9.0\GameJam.pdb
 E:\School Stuff\TraffikJam\GameJam\obj\Debug\net9.0\GameJam.genruntimeconfig.cache
 E:\School Stuff\TraffikJam\GameJam\obj\Debug\net9.0\ref\GameJam.dll
+E:\School Stuff\TraffikJam\GameJam\bin\Debug\net9.0\Content\TilesetPaid-CanyonDesertPlatformer.xnb
