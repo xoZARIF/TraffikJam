@@ -1,7 +1,16 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+<<<<<<< Updated upstream
 "E:/School Stuff/TraffikJam/GameJam/Content/bubble-character.png","E:/School Stuff/TraffikJam/GameJam/Content/bin/DesktopGL/Content/bubble-character.xnb","TextureProcessor","Texture2DContent",846,25685,0.3850545
 "E:/School Stuff/TraffikJam/GameJam/Content/cacto run.png","E:/School Stuff/TraffikJam/GameJam/Content/bin/DesktopGL/Content/cacto run.xnb","TextureProcessor","Texture2DContent",472,4181,0.0336204
 "E:/School Stuff/TraffikJam/GameJam/Content/CanyonDesert-BGstatic.png","E:/School Stuff/TraffikJam/GameJam/Content/bin/DesktopGL/Content/CanyonDesert-BGstatic.xnb","TextureProcessor","Texture2DContent",15014,655445,0.1213415
 "E:/School Stuff/TraffikJam/GameJam/Content/needle.jpg","E:/School Stuff/TraffikJam/GameJam/Content/bin/DesktopGL/Content/needle.xnb","TextureProcessor","Texture2DContent",1959,141085,0.0539282
 "E:/School Stuff/TraffikJam/GameJam/Content/TilesetPaid-CanyonDesertPlatformer.png","E:/School Stuff/TraffikJam/GameJam/Content/bin/DesktopGL/Content/TilesetPaid-CanyonDesertPlatformer.xnb","TextureProcessor","Texture2DContent",18622,262229,0.0667228
 "E:/School Stuff/TraffikJam/GameJam/Content/water-texture.jpg","E:/School Stuff/TraffikJam/GameJam/Content/bin/DesktopGL/Content/water-texture.xnb","TextureProcessor","Texture2DContent",14758,262229,0.0465764
+=======
+"C:/Users/zarif_8suk2oy/OneDrive/Documents/GitHub/TraffikJam/GameJam/Content/bubble-character.png","C:/Users/zarif_8suk2oy/OneDrive/Documents/GitHub/TraffikJam/GameJam/Content/bin/DesktopGL/Content/bubble-character.xnb","TextureProcessor","Texture2DContent",846,25685,0.0892781
+"C:/Users/zarif_8suk2oy/OneDrive/Documents/GitHub/TraffikJam/GameJam/Content/cacto run.png","C:/Users/zarif_8suk2oy/OneDrive/Documents/GitHub/TraffikJam/GameJam/Content/bin/DesktopGL/Content/cacto run.xnb","TextureProcessor","Texture2DContent",472,4181,0.0024103
+"C:/Users/zarif_8suk2oy/OneDrive/Documents/GitHub/TraffikJam/GameJam/Content/CanyonDesert-BGstatic.png","C:/Users/zarif_8suk2oy/OneDrive/Documents/GitHub/TraffikJam/GameJam/Content/bin/DesktopGL/Content/CanyonDesert-BGstatic.xnb","TextureProcessor","Texture2DContent",15014,655445,0.0227194
+"C:/Users/zarif_8suk2oy/OneDrive/Documents/GitHub/TraffikJam/GameJam/Content/needle.jpg","C:/Users/zarif_8suk2oy/OneDrive/Documents/GitHub/TraffikJam/GameJam/Content/bin/DesktopGL/Content/needle.xnb","TextureProcessor","Texture2DContent",1959,141085,0.0032078
+"C:/Users/zarif_8suk2oy/OneDrive/Documents/GitHub/TraffikJam/GameJam/Content/TilesetPaid-CanyonDesertPlatformer.png","C:/Users/zarif_8suk2oy/OneDrive/Documents/GitHub/TraffikJam/GameJam/Content/bin/DesktopGL/Content/TilesetPaid-CanyonDesertPlatformer.xnb","TextureProcessor","Texture2DContent",18622,262229,0.0069493
+"C:/Users/zarif_8suk2oy/OneDrive/Documents/GitHub/TraffikJam/GameJam/Content/water-texture.jpg","C:/Users/zarif_8suk2oy/OneDrive/Documents/GitHub/TraffikJam/GameJam/Content/bin/DesktopGL/Content/water-texture.xnb","TextureProcessor","Texture2DContent",14758,262229,0.0060972
+>>>>>>> Stashed changes

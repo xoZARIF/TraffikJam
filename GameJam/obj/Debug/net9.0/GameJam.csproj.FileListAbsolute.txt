@@ -77,6 +77,7 @@ C:\Users\natha\OneDrive\Documents\GitHub\TraffikJam\GameJam\obj\Debug\net9.0\ref
 E:\School Stuff\TraffikJam\GameJam\bin\Debug\net9.0\Content\cacto run.xnb
 E:\School Stuff\TraffikJam\GameJam\bin\Debug\net9.0\Content\CanyonDesert-BGstatic.xnb
 E:\School Stuff\TraffikJam\GameJam\bin\Debug\net9.0\GameJam.runtimeconfig.dev.json
+<<<<<<< Updated upstream
 C:\Users\natha\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\Content\bubble-character.xnb
 C:\Users\natha\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\Content\cacto run.xnb
 C:\Users\natha\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\Content\CanyonDesert-BGstatic.xnb
@@ -85,3 +86,48 @@ C:\Users\natha\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\Con
 E:\School Stuff\TraffikJam\GameJam\bin\Debug\net9.0\Content\bubble-character.xnb
 E:\School Stuff\TraffikJam\GameJam\bin\Debug\net9.0\Content\needle.xnb
 E:\School Stuff\TraffikJam\GameJam\bin\Debug\net9.0\Content\water-texture.xnb
+=======
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\Content\bubble-character.xnb
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\Content\cacto run.xnb
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\Content\CanyonDesert-BGstatic.xnb
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\Content\needle.xnb
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\Content\TilesetPaid-CanyonDesertPlatformer.xnb
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\Content\water-texture.xnb
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\GameJam.exe
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\GameJam.deps.json
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\GameJam.runtimeconfig.json
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\GameJam.dll
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\GameJam.pdb
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\MonoGame.Framework.dll
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\NVorbis.dll
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\runtimes\android-arm\native\libopenal.so
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\runtimes\android-arm64\native\libopenal.so
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\runtimes\android-x64\native\libopenal.so
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\runtimes\android-x86\native\libopenal.so
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\runtimes\ios-arm64\native\libopenal.a
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\runtimes\iossimulator-arm64\native\libopenal.a
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\runtimes\iossimulator-x64\native\libopenal.a
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\runtimes\linux-arm64\native\libopenal.so
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\runtimes\linux-x64\native\libopenal.so
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\runtimes\osx\native\libopenal.dylib
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\runtimes\win-arm64\native\openal.dll
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\runtimes\win-x64\native\openal.dll
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\runtimes\linux-arm64\native\libSDL2-2.0.so.0
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\runtimes\linux-x64\native\libSDL2-2.0.so.0
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\runtimes\osx\native\libSDL2-2.0.0.dylib
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\runtimes\win-arm64\native\SDL2.dll
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\runtimes\win-x64\native\SDL2.dll
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\obj\Debug\net9.0\mgcb.tool.restore
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\obj\Debug\net9.0\GameJam.csproj.AssemblyReference.cache
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\obj\Debug\net9.0\GameJam.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\obj\Debug\net9.0\GameJam.AssemblyInfoInputs.cache
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\obj\Debug\net9.0\GameJam.AssemblyInfo.cs
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\obj\Debug\net9.0\GameJam.csproj.CoreCompileInputs.cache
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\obj\Debug\net9.0\GameJam.sourcelink.json
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\obj\Debug\net9.0\GameJam.csproj.Up2Date
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\obj\Debug\net9.0\GameJam.dll
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\obj\Debug\net9.0\refint\GameJam.dll
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\obj\Debug\net9.0\GameJam.pdb
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\obj\Debug\net9.0\GameJam.genruntimeconfig.cache
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\obj\Debug\net9.0\ref\GameJam.dll
+>>>>>>> Stashed changes
