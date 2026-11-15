@@ -31,6 +31,8 @@ namespace GameJam
         private List<Texture2D> backgroundLayers;
         private Texture2D tileset;
 
+        //Collisions
+        private CollisionManager collisionManager;
 
         public Game1()
         {
@@ -103,6 +105,11 @@ namespace GameJam
             // initialize enemy manager
             enemyManager = new EnemyManager();
             enemyManager.AddEnemy(enemy);
+
+            //
+
+
+            collisionManager = new CollisionManager(player, enemyManager.Enemies, levelManager.Platforms);
         }
 
         protected override void Update(GameTime gameTime)
@@ -113,24 +120,6 @@ namespace GameJam
             KeyboardState currState = Keyboard.GetState();
 
             player.Update(gameTime);
-            //int speed = 5;
-
-            //if (currState.IsKeyDown(Keys.Down))
-            //{
-            //    bubblePosition.Y += speed;
-            //}
-            //if (currState.IsKeyDown(Keys.Up))
-            //{
-            //    bubblePosition.Y -= speed;
-            //}
-            //if (currState.IsKeyDown(Keys.Left))
-            //{
-            //    bubblePosition.X -= speed;
-            //}
-            //if (currState.IsKeyDown(Keys.Right))
-            //{
-            //    bubblePosition.X += speed;
-            //}
 
 
             // TODO: Add your update logic here

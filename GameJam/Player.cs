@@ -13,6 +13,13 @@ enum PlayerState
     Crouching
 }
 
+enum GravityState
+{
+    Grounded,
+    InAir
+}
+
+
 namespace GameJam
 {
     internal class Player
@@ -24,12 +31,69 @@ namespace GameJam
 
 
         PlayerState currentState = PlayerState.Crouching;
+        GravityState gravity = GravityState.Grounded;
+
+        public int X
+        {
+            get { return position.X; }
+            set { position.X = value; }
+        }
+
+        public int oX
+        {
+            get { return otherPosition.X; }
+            set { otherPosition.X = value; }
+        }
+        public int Y
+        {
+            get { return position.Y; }
+            set { position.Y = value; }
+        }
+
+        public int oY
+        {
+            get { return otherPosition.Y; }
+            set { otherPosition.Y = value; }
+        }
+
+        public int Width
+        {
+            get { return position.Width; }
+            set { position.Width = value; }
+        }
+
+        public int oWidth
+        {
+            get { return otherPosition.Width; }
+            set { otherPosition.Width = value; }
+        }
+
+        public int Height
+        {
+            get { return position.Height; }
+            set { position.Height = value; }
+        }
+
+        public int oHeight
+        {
+            get { return otherPosition.Height; }
+            set { otherPosition.Height = value; }
+        }
+
+        public bool onGround
+        {
+            //Questionable
+            get { return onGround; }
+            set { if (gravity == GravityState.Grounded)
+                    onGround = false;
+                else onGround = true;
+                }
+                }
 
         internal Player(Texture2D spriteIdle, Texture2D spriteDown, Rectangle Iposition, Rectangle oPosition)
         {
             this.idleSprite = spriteIdle;
             this.downSprite = spriteDown;
-
             this.position = Iposition;
             this.otherPosition = oPosition;
         }
@@ -41,7 +105,9 @@ namespace GameJam
             KeyboardState currState = Keyboard.GetState();
 
             int speed = 5;
+            int fallGravity = 3;
 
+            //Player Movement
             switch (currentState)
             {
                 case PlayerState.Idle:
@@ -93,7 +159,30 @@ namespace GameJam
 
                     break;
             }
-        }
+
+            //Player Movement
+
+            switch (gravity)
+            {
+                case GravityState.Grounded:
+
+                    if (currState.IsKeyDown(Keys.Up))
+                    {
+                        gravity = GravityState.InAir;
+                    }
+                    
+                    break;
+
+                case GravityState.InAir:
+                    position.Y += fallGravity;
+                    otherPosition.Y += fallGravity;
+                    {
+                        break;
+                    }
+
+            }
+
+            }
         public void Draw(SpriteBatch spriteBatch)
         {
 
