@@ -140,3 +140,8 @@ C:\Users\natha\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\Con
 C:\Users\natha\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\Content\gameJamTextureMapping.txt
 C:\Users\natha\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\Content\squished-bubble.xnb
 C:\Users\natha\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\Content\tilesheetEDIT.xnb
+E:\School Stuff\TraffikJam\GameJam\bin\Debug\net9.0\Content\CanyonDesert-BGlayer1.xnb
+E:\School Stuff\TraffikJam\GameJam\bin\Debug\net9.0\Content\CanyonDesert-BGlayer2.xnb
+E:\School Stuff\TraffikJam\GameJam\bin\Debug\net9.0\Content\CanyonDesert-BGlayer3.xnb
+E:\School Stuff\TraffikJam\GameJam\bin\Debug\net9.0\Content\CanyonDesert-BGlayer4.xnb
+E:\School Stuff\TraffikJam\GameJam\bin\Debug\net9.0\Content\CanyonDesert-BGlayer5.xnb
