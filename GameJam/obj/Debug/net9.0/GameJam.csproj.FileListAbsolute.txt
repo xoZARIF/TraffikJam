@@ -161,3 +161,8 @@ E:\School Stuff\TraffikJam\GameJam\bin\Debug\net9.0\Content\wall-block.xnb
 E:\School Stuff\TraffikJam\GameJam\bin\Debug\net9.0\Content\Lose.xnb
 E:\School Stuff\TraffikJam\GameJam\bin\Debug\net9.0\Content\Menu.xnb
 E:\School Stuff\TraffikJam\GameJam\bin\Debug\net9.0\Content\Win.xnb
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\Content\end-sign.xnb
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\Content\Lose.xnb
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\Content\Menu.xnb
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\Content\wall-block.xnb
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\Content\Win.xnb

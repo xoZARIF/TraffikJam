@@ -222,7 +222,7 @@ namespace GameJam
 
                 foreach (GameObject block in platforms)
                 {
-                  //  block.X = originalPositions[platforms.IndexOf(block)].X;
+                  // block.X = originalPositions[platforms.IndexOf(block)].X;
                 }
             }
 
@@ -253,7 +253,7 @@ namespace GameJam
 
             if (currentState.IsKeyDown(Keys.Left))
             {
-                //if (worldPosition.X > 0)
+                if (worldPosition.X > 0)
                 {
                     worldPosition.X -= 5;
 
@@ -281,6 +281,24 @@ namespace GameJam
                 worldPosition.Y -= 5;
             }
         }
+
+
+        public void ResetLevel()
+        {
+            worldPosition = Vector2.Zero;
+            worldToScreen = Vector2.Zero;
+
+            for (int r = 0; r < backgroundSourceRectangles.Count; r++)
+            {
+                backgroundSourceRectangles[r] = new Rectangle(0, 0, windowWidth, windowHeight);
+            }
+
+            for (int i = 0; i < platforms.Count; i++)
+            {
+                platforms[i].X = originalPositions[i].X;
+                platforms[i].Y = originalPositions[i].Y;
+            }
+        }  
     }
 
 }
