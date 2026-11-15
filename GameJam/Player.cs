@@ -112,7 +112,6 @@ namespace GameJam
             this.crouchHeight = (int)(spriteDown.Height * 0.5);
         }
 
-
         public void Update(GameTime gameTime)
         {
 
@@ -166,7 +165,7 @@ namespace GameJam
 
                 case PlayerState.Idle:
 
-                    if (currState.IsKeyDown(Keys.Down))
+                    if (currState.IsKeyDown(Keys.Down) || currState.IsKeyDown(Keys.RightShift) || currState.IsKeyDown(Keys.LeftShift))
                     {
                         // make sure y makes object stays on ground
                         position.Y += (height - crouchHeight);
@@ -177,7 +176,7 @@ namespace GameJam
                     break;
 
                 case PlayerState.Crouching:
-                    if (currState.IsKeyUp(Keys.Down))
+                    if (currState.IsKeyUp(Keys.Down) && currState.IsKeyUp(Keys.RightShift) && currState.IsKeyUp(Keys.LeftShift))
                     {
                         // make sure y moves back up
                         position.Y -= (height - crouchHeight);
