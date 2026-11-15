@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "E:\\School Stuff\\TraffikJam\\GameJam\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7CC7D272-7950-48A6-A406-33A7F0606F8F}|GameJam.csproj|e:\\school stuff\\traffikjam\\gamejam\\content\\gamejamlevelfile.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{7CC7D272-7950-48A6-A406-33A7F0606F8F}|GameJam.csproj|solutionrelative:content\\gamejamlevelfile.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{7CC7D272-7950-48A6-A406-33A7F0606F8F}|GameJam.csproj|e:\\school stuff\\traffikjam\\gamejam\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CC7D272-7950-48A6-A406-33A7F0606F8F}|GameJam.csproj|solutionrelative:levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7CC7D272-7950-48A6-A406-33A7F0606F8F}|GameJam.csproj|e:\\school stuff\\traffikjam\\gamejam\\content\\gamejamtexturemapping.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{7CC7D272-7950-48A6-A406-33A7F0606F8F}|GameJam.csproj|solutionrelative:content\\gamejamtexturemapping.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CC7D272-7950-48A6-A406-33A7F0606F8F}|GameJam.csproj|e:\\school stuff\\traffikjam\\gamejam\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CC7D272-7950-48A6-A406-33A7F0606F8F}|GameJam.csproj|solutionrelative:levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7CC7D272-7950-48A6-A406-33A7F0606F8F}|GameJam.csproj|e:\\school stuff\\traffikjam\\gamejam\\content\\gamejamlevelfile.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7CC7D272-7950-48A6-A406-33A7F0606F8F}|GameJam.csproj|solutionrelative:content\\gamejamlevelfile.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7CC7D272-7950-48A6-A406-33A7F0606F8F}|GameJam.csproj|e:\\school stuff\\traffikjam\\gamejam\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -62,22 +62,21 @@
               "RelativeToolTip": "Game1.cs",
               "ViewState": "AgIAAD0AAAAAAAAAAAAQwFkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-14T00:25:53.842Z",
+              "WhenOpened": "2026-11-15T21:20:17.881Z",
               "IsPinned": true,
-              "EditorCaption": "",
               "OwnerCaption": "%2"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "LevelManager.cs",
               "DocumentMoniker": "E:\\School Stuff\\TraffikJam\\GameJam\\LevelManager.cs",
               "RelativeDocumentMoniker": "LevelManager.cs",
               "ToolTip": "E:\\School Stuff\\TraffikJam\\GameJam\\LevelManager.cs",
               "RelativeToolTip": "LevelManager.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAuwD0AAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAANIAAAAAAAAAAAAYwHUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-14T23:02:31.345Z",
+              "WhenOpened": "2026-11-15T21:20:17.908Z",
               "IsPinned": true,
               "EditorCaption": "",
               "OwnerCaption": "%2"
@@ -90,24 +89,22 @@
               "RelativeDocumentMoniker": "Content\\gameJamTextureMapping.txt",
               "ToolTip": "E:\\School Stuff\\TraffikJam\\GameJam\\Content\\gameJamTextureMapping.txt",
               "RelativeToolTip": "Content\\gameJamTextureMapping.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-11-15T20:41:02.805Z",
-              "EditorCaption": "",
+              "WhenOpened": "2026-11-15T21:20:17.952Z",
               "OwnerCaption": "%2"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "gameJamLevelFile.txt",
               "DocumentMoniker": "E:\\School Stuff\\TraffikJam\\GameJam\\Content\\gameJamLevelFile.txt",
               "RelativeDocumentMoniker": "Content\\gameJamLevelFile.txt",
-              "ToolTip": "E:\\School Stuff\\TraffikJam\\GameJam\\Content\\gameJamLevelFile.txt*",
-              "RelativeToolTip": "Content\\gameJamLevelFile.txt*",
+              "ToolTip": "E:\\School Stuff\\TraffikJam\\GameJam\\Content\\gameJamLevelFile.txt",
+              "RelativeToolTip": "Content\\gameJamLevelFile.txt",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAACQAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-11-15T01:30:52.84Z",
-              "EditorCaption": "",
+              "WhenOpened": "2026-11-15T21:20:17.956Z",
               "OwnerCaption": "%2"
             },
             {
@@ -120,8 +117,7 @@
               "RelativeToolTip": "Player.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAgwBgAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-14T22:48:59.962Z",
-              "EditorCaption": "",
+              "WhenOpened": "2026-11-15T21:20:17.961Z",
               "OwnerCaption": "%2"
             },
             {
@@ -134,8 +130,7 @@
               "RelativeToolTip": "Block.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-14T22:48:55.798Z",
-              "EditorCaption": "",
+              "WhenOpened": "2026-11-15T21:20:17.965Z",
               "OwnerCaption": "%2"
             },
             {
@@ -148,8 +143,7 @@
               "RelativeToolTip": "GameObject.cs",
               "ViewState": "AgIAADIAAAAAAAAAAAAewD8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-14T22:55:07.631Z",
-              "EditorCaption": "",
+              "WhenOpened": "2026-11-15T21:20:17.969Z",
               "OwnerCaption": "%2"
             },
             {
@@ -162,7 +156,7 @@
               "RelativeToolTip": "CollisionManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-14T22:51:55.864Z",
+              "WhenOpened": "2026-11-15T21:20:17.972Z",
               "OwnerCaption": "%2"
             },
             {
@@ -175,7 +169,7 @@
               "RelativeToolTip": "EnemyManager.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-14T23:02:47.453Z",
+              "WhenOpened": "2026-11-15T21:20:17.975Z",
               "OwnerCaption": "%2"
             },
             {
@@ -188,7 +182,7 @@
               "RelativeToolTip": "Enemy.cs",
               "ViewState": "AgIAAGkAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-14T00:25:50.258Z",
+              "WhenOpened": "2026-11-15T21:20:17.978Z",
               "OwnerCaption": "%2"
             }
           ]
