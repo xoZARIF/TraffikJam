@@ -145,3 +145,7 @@ E:\School Stuff\TraffikJam\GameJam\bin\Debug\net9.0\Content\CanyonDesert-BGlayer
 E:\School Stuff\TraffikJam\GameJam\bin\Debug\net9.0\Content\CanyonDesert-BGlayer3.xnb
 E:\School Stuff\TraffikJam\GameJam\bin\Debug\net9.0\Content\CanyonDesert-BGlayer4.xnb
 E:\School Stuff\TraffikJam\GameJam\bin\Debug\net9.0\Content\CanyonDesert-BGlayer5.xnb
+E:\School Stuff\TraffikJam\GameJam\bin\Debug\net9.0\Content\layer2.xnb
+E:\School Stuff\TraffikJam\GameJam\bin\Debug\net9.0\Content\layer3.xnb
+E:\School Stuff\TraffikJam\GameJam\bin\Debug\net9.0\Content\layer4.xnb
+E:\School Stuff\TraffikJam\GameJam\bin\Debug\net9.0\Content\layer5.xnb

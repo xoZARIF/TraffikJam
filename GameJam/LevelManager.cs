@@ -13,7 +13,7 @@ namespace GameJam
     internal class LevelManager
     {
         // FIELDS
-        private Texture2D backgroundAsset;
+        private List<Texture2D> backgroundAssets;
         private Texture2D tileAsset;
         private SpriteBatch _spriteBatch;
         private List<GameObject> platforms;
@@ -23,7 +23,7 @@ namespace GameJam
         private int spriteWidth;
         private int spriteHeight;
         private int intendedSize;
-        private Rectangle backgroundSourceRctangle;
+        private List<Rectangle> backgroundSourceRctangle;
 
         // PROPERTY
         public List<GameObject> Platforms
@@ -43,9 +43,9 @@ namespace GameJam
         }
 
         // CONSTRUCTOR
-        public LevelManager(Texture2D backgroundAsset, Texture2D tileset, SpriteBatch spriteBatch, int windowWidth, int windowHeight, string textureFile)
+        public LevelManager(List<Texture2D> backgrounds, Texture2D tileset, SpriteBatch spriteBatch, int windowWidth, int windowHeight, string textureFile)
         {
-            this.backgroundAsset = backgroundAsset;
+            this.backgroundAssets = backgrounds;
             this.tileAsset = tileset;
             this._spriteBatch = spriteBatch;
             this.windowWidth = windowWidth;
@@ -58,7 +58,12 @@ namespace GameJam
             spriteHeight = 1;
             intendedSize = 64;
 
-            backgroundSourceRctangle = new Rectangle(0, 0, windowWidth, windowHeight);
+            backgroundSourceRctangle = new List<Rectangle>();
+
+            for(int r = 0; r < backgroundAssets.Count; r++)
+            {
+                backgroundSourceRctangle.Add(new Rectangle(0, 0, windowWidth, windowHeight));
+            }
 
             StreamReader reader = null!;
 
@@ -160,7 +165,10 @@ namespace GameJam
 
         public void DisplayLevel()
         {
-            _spriteBatch.Draw(backgroundAsset, Vector2.Zero, backgroundSourceRctangle, Color.White, 0f, Vector2.Zero, 2f, SpriteEffects.None, 0f);
+            for(int d = 0; d < backgroundAssets.Count; d++)
+            {
+                _spriteBatch.Draw(backgroundAssets[d], backgroundSourceRctangle[d], Color.White);
+            }
 
             foreach(GameObject block in platforms)
             {

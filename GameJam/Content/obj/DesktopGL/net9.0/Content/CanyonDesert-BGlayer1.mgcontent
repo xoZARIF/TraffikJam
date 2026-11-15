@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SourceFile>E:/School Stuff/TraffikJam/GameJam/Content/CanyonDesert-BGlayer1.png</SourceFile>
-  <SourceTime>2026-11-14T22:04:06-05:00</SourceTime>
+  <SourceTime>2026-11-14T21:57:48-05:00</SourceTime>
   <DestFile>E:/School Stuff/TraffikJam/GameJam/Content/bin/DesktopGL/Content/CanyonDesert-BGlayer1.xnb</DestFile>
-  <DestTime>2026-11-14T22:04:34-05:00</DestTime>
+  <DestTime>2026-11-14T22:40:04-05:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2026-08-14T17:50:10-04:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
