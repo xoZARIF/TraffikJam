@@ -2,9 +2,18 @@
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using System.Collections.Generic;
+using System.Threading;
 
 namespace GameJam
 {
+    enum GameState 
+    { 
+        Menu,
+        Game,
+        Win,
+        Lose
+    }
+
     public class Game1 : Game
     {
         private GraphicsDeviceManager _graphics;
@@ -33,6 +42,16 @@ namespace GameJam
 
         //Collisions
         private CollisionManager collisionManager;
+
+        // game state
+        private GameState currentGameState = GameState.Menu;
+        private KeyboardState prevKeyboardState;
+
+        // game state screens
+        private Texture2D menu;
+        private Texture2D game;
+        private Texture2D win;
+        private Texture2D lose;
 
         public Game1()
         {
@@ -68,6 +87,13 @@ namespace GameJam
             downSprite = Content.Load<Texture2D>("squished-bubble");
             idlePosition = new Rectangle((int)(width / 2), (int)(height / 2), (int)(bubbleSprite.Width * 0.5), (int)(bubbleSprite.Height * 0.5));
             // downPosition = new Rectangle((int)(width / 2), (int)(height / 2 + (int)(downSprite.Width * 0.25)), (int)(downSprite.Width * 0.5), (int)(downSprite.Height * 0.5));
+
+            // load all game state images
+            menu = Content.Load<Texture2D>("Menu");
+            win = Content.Load<Texture2D>("Win");
+            lose = Content.Load<Texture2D>("Lose");
+
+
 
             player = new Player(bubbleSprite, downSprite, idlePosition);
 
@@ -119,17 +145,61 @@ namespace GameJam
 
             KeyboardState currState = Keyboard.GetState();
 
-            player.Update(gameTime);
+            //player.Update(gameTime);
 
             // TODO: Add your update logic here
 
-            // update enemy
-            enemyManager.Update(gameTime);
+            // bool for when e is pressed
+            bool ePressed = currState.IsKeyDown(Keys.E) && prevKeyboardState.IsKeyUp(Keys.E);
 
-            levelManager.UpdateLevel(gameTime, new Vector2(player.X, player.Y));
+            // FSM for game states
+            switch (currentGameState)
+            {
+                case GameState.Menu:
+                    if (ePressed)
+                    {
+                        currentGameState = GameState.Game;
+                    }
+                    break;
+                case GameState.Game:
+                    player.Update(gameTime);
+                    enemyManager.Update(gameTime);
+                    levelManager.UpdateLevel(gameTime, new Vector2(player.X, player.Y));
+                    collisionManager.Update();
 
-            // collision manager
-            collisionManager.Update();
+                    // check lose condition
+                    if (!player.IsAlive)
+                    {
+                        currentGameState = GameState.Lose;
+                    }
+
+                    // check win condition
+                    // if (player.Won)
+                    // {
+                    //      currentGameState = GameState.Win;
+                    // }
+                    break;
+                case GameState.Win:
+                case GameState.Lose:
+                    if (ePressed)
+                    {
+                        ResetGame();
+                        currentGameState = GameState.Menu;
+                    }
+                    break;
+            }
+
+            prevKeyboardState = currState;
+
+            //// update enemy
+            //enemyManager.Update(gameTime);
+
+            //levelManager.UpdateLevel(gameTime, new Vector2(player.X, player.Y));
+
+            //// collision manager
+            //collisionManager.Update();
+
+
 
             base.Update(gameTime);
         }
@@ -140,13 +210,30 @@ namespace GameJam
 
             _spriteBatch.Begin();
 
-            levelManager.DisplayLevel();
+            switch (currentGameState)
+            {
+                case GameState.Menu:
+                    _spriteBatch.Draw(menu, new Rectangle(0, 0, windowWidth, windowHeight), Color.White);
+                    break;
+                case GameState.Game:
+                    levelManager.DisplayLevel();
 
-            //_spriteBatch.Draw(bubbleSprite, bubblePosition, Color.White);
-            player.Draw(_spriteBatch);
+                    //_spriteBatch.Draw(bubbleSprite, bubblePosition, Color.White);
+                    player.Draw(_spriteBatch);
 
-            // draw enemy
-            enemyManager.Draw(_spriteBatch);
+                    // draw enemy
+                    enemyManager.Draw(_spriteBatch);
+                    break;
+                case GameState.Win:
+                    _spriteBatch.Draw(win, new Rectangle(0, 0, windowWidth, windowHeight), Color.White);
+                    break;
+                case GameState.Lose:
+                    _spriteBatch.Draw(lose, new Rectangle(0, 0, windowWidth, windowHeight), Color.White);
+                    break;
+            }
+
+
+           
 
             _spriteBatch.End();
 
@@ -154,6 +241,17 @@ namespace GameJam
             // TODO: Add your drawing code here
 
             base.Draw(gameTime);
+        }
+
+        private void ResetGame()
+        {
+            // reset player
+            player.IsAlive = true;
+            player.X = windowWidth / 2;
+            player.Y = windowHeight / 2;
+
+            // reload level and enemies
+
         }
     }
 }
