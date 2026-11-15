@@ -14,11 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GameJam")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< Updated upstream
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df9e08b41ac41f121a2843cc7500e05d119cb3f2")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6dd48c646148e75b7f9135dcafddc7b8af71133f")]
->>>>>>> Stashed changes
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ade3f95eb8861bf5c0eae27b50ebb85f22a643ae")]
 [assembly: System.Reflection.AssemblyProductAttribute("GameJam")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GameJam")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
