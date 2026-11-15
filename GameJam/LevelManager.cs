@@ -167,7 +167,7 @@ namespace GameJam
         {
             for(int d = 0; d < backgroundAssets.Count; d++)
             {
-                _spriteBatch.Draw(backgroundAssets[d], backgroundSourceRctangle[d], Color.White);
+                _spriteBatch.Draw(backgroundAssets[d], Vector2.Zero, backgroundSourceRctangle[d], Color.White, 0f, Vector2.Zero, 2f, SpriteEffects.None, 0f);
             }
 
             foreach(GameObject block in platforms)

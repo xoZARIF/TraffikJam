@@ -1,4 +1,5 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+<<<<<<< Updated upstream
 "C:/Users/zarif_8suk2oy/OneDrive/Documents/GitHub/TraffikJam/GameJam/Content/bubble-character.png","C:/Users/zarif_8suk2oy/OneDrive/Documents/GitHub/TraffikJam/GameJam/Content/bin/DesktopGL/Content/bubble-character.xnb","TextureProcessor","Texture2DContent",846,25685,0.0705935
 "C:/Users/zarif_8suk2oy/OneDrive/Documents/GitHub/TraffikJam/GameJam/Content/cacto run.png","C:/Users/zarif_8suk2oy/OneDrive/Documents/GitHub/TraffikJam/GameJam/Content/bin/DesktopGL/Content/cacto run.xnb","TextureProcessor","Texture2DContent",472,4181,0.0023499
 "C:/Users/zarif_8suk2oy/OneDrive/Documents/GitHub/TraffikJam/GameJam/Content/CanyonDesert-BGlayer1.png","C:/Users/zarif_8suk2oy/OneDrive/Documents/GitHub/TraffikJam/GameJam/Content/bin/DesktopGL/Content/CanyonDesert-BGlayer1.xnb","TextureProcessor","Texture2DContent",1410,655445,0.0182746
@@ -11,3 +12,19 @@ Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Siz
 "C:/Users/zarif_8suk2oy/OneDrive/Documents/GitHub/TraffikJam/GameJam/Content/TilesetPaid-CanyonDesertPlatformer.png","C:/Users/zarif_8suk2oy/OneDrive/Documents/GitHub/TraffikJam/GameJam/Content/bin/DesktopGL/Content/TilesetPaid-CanyonDesertPlatformer.xnb","TextureProcessor","Texture2DContent",18622,262229,0.0071905
 "C:/Users/zarif_8suk2oy/OneDrive/Documents/GitHub/TraffikJam/GameJam/Content/tilesheetEDIT.png","C:/Users/zarif_8suk2oy/OneDrive/Documents/GitHub/TraffikJam/GameJam/Content/bin/DesktopGL/Content/tilesheetEDIT.xnb","TextureProcessor","Texture2DContent",16166,262229,0.0082959
 "C:/Users/zarif_8suk2oy/OneDrive/Documents/GitHub/TraffikJam/GameJam/Content/water-texture.jpg","C:/Users/zarif_8suk2oy/OneDrive/Documents/GitHub/TraffikJam/GameJam/Content/bin/DesktopGL/Content/water-texture.xnb","TextureProcessor","Texture2DContent",14758,262229,0.0099325
+=======
+"E:/School Stuff/TraffikJam/GameJam/Content/bubble-character.png","E:/School Stuff/TraffikJam/GameJam/Content/bin/DesktopGL/Content/bubble-character.xnb","TextureProcessor","Texture2DContent",846,25685,0.2035011
+"E:/School Stuff/TraffikJam/GameJam/Content/cacto run.png","E:/School Stuff/TraffikJam/GameJam/Content/bin/DesktopGL/Content/cacto run.xnb","TextureProcessor","Texture2DContent",472,4181,0.0320769
+"E:/School Stuff/TraffikJam/GameJam/Content/CanyonDesert-BGlayer1.png","E:/School Stuff/TraffikJam/GameJam/Content/bin/DesktopGL/Content/CanyonDesert-BGlayer1.xnb","TextureProcessor","Texture2DContent",1410,655445,0.0606649
+"E:/School Stuff/TraffikJam/GameJam/Content/gameJamLevelFile.txt","E:\School Stuff\TraffikJam\GameJam\Content\bin\DesktopGL\Content\gameJamLevelFile.txt","CopyItem","File",557,557,0.0013027
+"E:/School Stuff/TraffikJam/GameJam/Content/gameJamTextureMapping.txt","E:\School Stuff\TraffikJam\GameJam\Content\bin\DesktopGL\Content\gameJamTextureMapping.txt","CopyItem","File",373,373,0.0023876
+"E:/School Stuff/TraffikJam/GameJam/Content/layer2.png","E:/School Stuff/TraffikJam/GameJam/Content/bin/DesktopGL/Content/layer2.xnb","TextureProcessor","Texture2DContent",120758,2304085,0.1114153
+"E:/School Stuff/TraffikJam/GameJam/Content/layer3.png","E:/School Stuff/TraffikJam/GameJam/Content/bin/DesktopGL/Content/layer3.xnb","TextureProcessor","Texture2DContent",119920,2304085,0.1306653
+"E:/School Stuff/TraffikJam/GameJam/Content/layer4.png","E:/School Stuff/TraffikJam/GameJam/Content/bin/DesktopGL/Content/layer4.xnb","TextureProcessor","Texture2DContent",186625,2304085,0.1024648
+"E:/School Stuff/TraffikJam/GameJam/Content/layer5.png","E:/School Stuff/TraffikJam/GameJam/Content/bin/DesktopGL/Content/layer5.xnb","TextureProcessor","Texture2DContent",91815,2304085,0.1408479
+"E:/School Stuff/TraffikJam/GameJam/Content/needle.jpg","E:/School Stuff/TraffikJam/GameJam/Content/bin/DesktopGL/Content/needle.xnb","TextureProcessor","Texture2DContent",1959,141085,0.06201
+"E:/School Stuff/TraffikJam/GameJam/Content/squished-bubble.png","E:/School Stuff/TraffikJam/GameJam/Content/bin/DesktopGL/Content/squished-bubble.xnb","TextureProcessor","Texture2DContent",1690,10645,0.0503473
+"E:/School Stuff/TraffikJam/GameJam/Content/TilesetPaid-CanyonDesertPlatformer.png","E:/School Stuff/TraffikJam/GameJam/Content/bin/DesktopGL/Content/TilesetPaid-CanyonDesertPlatformer.xnb","TextureProcessor","Texture2DContent",18622,262229,0.0620711
+"E:/School Stuff/TraffikJam/GameJam/Content/tilesheetEDIT.png","E:/School Stuff/TraffikJam/GameJam/Content/bin/DesktopGL/Content/tilesheetEDIT.xnb","TextureProcessor","Texture2DContent",16166,262229,0.0416213
+"E:/School Stuff/TraffikJam/GameJam/Content/water-texture.jpg","E:/School Stuff/TraffikJam/GameJam/Content/bin/DesktopGL/Content/water-texture.xnb","TextureProcessor","Texture2DContent",14758,262229,0.0633232
+>>>>>>> Stashed changes

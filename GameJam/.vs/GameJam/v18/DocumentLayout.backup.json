@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -56,9 +56,24 @@
               "RelativeDocumentMoniker": "Game1.cs",
               "ToolTip": "E:\\School Stuff\\TraffikJam\\GameJam\\Game1.cs",
               "RelativeToolTip": "Game1.cs",
-              "ViewState": "AgIAAIkAAAAAAAAAAAAuwFIAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAYwEkAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-14T00:25:53.842Z",
+              "IsPinned": true,
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Block.cs",
+              "DocumentMoniker": "E:\\School Stuff\\TraffikJam\\GameJam\\Block.cs",
+              "RelativeDocumentMoniker": "Block.cs",
+              "ToolTip": "E:\\School Stuff\\TraffikJam\\GameJam\\Block.cs",
+              "RelativeToolTip": "Block.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-14T22:48:55.798Z",
               "IsPinned": true,
               "OwnerCaption": "%2"
             },
@@ -83,23 +98,10 @@
               "RelativeDocumentMoniker": "LevelManager.cs",
               "ToolTip": "E:\\School Stuff\\TraffikJam\\GameJam\\LevelManager.cs",
               "RelativeToolTip": "LevelManager.cs",
-              "ViewState": "AgIAAJQAAAAAAAAAAAAwwKkAAABhAAAAAAAAAA==",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAwwLAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-14T23:02:31.345Z",
               "EditorCaption": "",
-              "OwnerCaption": "%2"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Block.cs",
-              "DocumentMoniker": "E:\\School Stuff\\TraffikJam\\GameJam\\Block.cs",
-              "RelativeDocumentMoniker": "Block.cs",
-              "ToolTip": "E:\\School Stuff\\TraffikJam\\GameJam\\Block.cs",
-              "RelativeToolTip": "Block.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-14T22:48:55.798Z",
               "OwnerCaption": "%2"
             },
             {
