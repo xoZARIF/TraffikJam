@@ -78,7 +78,6 @@ namespace GameJam
             backgroundLayers.Add(Content.Load<Texture2D>("CanyonDesert-BGlayer3"));
             backgroundLayers.Add(Content.Load<Texture2D>("CanyonDesert-BGlayer4"));
             backgroundLayers.Add(Content.Load<Texture2D>("CanyonDesert-BGlayer5"));
-            backgroundLayers.Add(Content.Load<Texture2D>("CanyonDesert-BGlayer6"));
             tileset = Content.Load<Texture2D>("tilesheetEDIT");
 
             levelManager = new LevelManager(
