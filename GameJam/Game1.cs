@@ -33,9 +33,6 @@ namespace GameJam
             _graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
             IsMouseVisible = true;
-
-            windowWidth = this.GraphicsDevice.Viewport.Width;
-            windowHeight = this.GraphicsDevice.Viewport.Height;
         }
 
         protected override void Initialize()
@@ -43,6 +40,13 @@ namespace GameJam
             // TODO: Add your initialization logic here
 
             base.Initialize();
+<<<<<<< Updated upstream
+=======
+
+            windowWidth = this.GraphicsDevice.Viewport.Width;
+            windowHeight = this.GraphicsDevice.Viewport.Height;
+        }
+>>>>>>> Stashed changes
 
             // initialize enemy manager
             enemyManager = new EnemyManager();

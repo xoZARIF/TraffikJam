@@ -23,7 +23,7 @@ namespace GameJam
             base.Draw(spriteBatch);
         }
 
-        public override void Update(GameTime gameTime, bool debugMode)
+        public override void Update(GameTime gameTime)
         {
             throw new NotImplementedException();
         }
