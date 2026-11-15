@@ -3,7 +3,11 @@
   <SourceFile>C:/Users/natha/OneDrive/Documents/GitHub/TraffikJam/GameJam/Content/CanyonDesert-BGstatic.png</SourceFile>
   <SourceTime>2026-11-13T19:29:25.8777609-05:00</SourceTime>
   <DestFile>C:/Users/natha/OneDrive/Documents/GitHub/TraffikJam/GameJam/Content/bin/DesktopGL/Content/CanyonDesert-BGstatic.xnb</DestFile>
+<<<<<<< Updated upstream
   <DestTime>2026-11-14T20:47:19.5969729-05:00</DestTime>
+=======
+  <DestTime>2026-11-14T20:22:14.3110933-05:00</DestTime>
+>>>>>>> Stashed changes
   <Importer>TextureImporter</Importer>
   <ImporterTime>2026-08-14T17:50:10-04:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

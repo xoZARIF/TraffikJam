@@ -1,5 +1,9 @@
+<<<<<<< Updated upstream
 ﻿using System;
 using Microsoft.Xna.Framework;
+=======
+﻿using Microsoft.Xna.Framework;
+>>>>>>> Stashed changes
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using System;
@@ -41,6 +45,7 @@ namespace GameJam
             {
                 case PlayerState.Idle:
 
+<<<<<<< Updated upstream
                     if (currState.IsKeyDown(Keys.Down))
                     {
                         currentState = PlayerState.Crouching;
@@ -57,6 +62,24 @@ namespace GameJam
                     {
                         position.X += speed;
                     }
+=======
+            if (currState.IsKeyDown(Keys.Down))
+            {
+               currentState = PlayerState.Crouching;
+            }
+            if (currState.IsKeyDown(Keys.Up))
+            {
+                position.Y -= speed;
+            }
+            if (currState.IsKeyDown(Keys.Left))
+            {
+                position.X -= speed;
+            }
+            if (currState.IsKeyDown(Keys.Right))
+            {
+                position.X += speed;
+            }
+>>>>>>> Stashed changes
                     break;
 
                 case PlayerState.Crouching:
