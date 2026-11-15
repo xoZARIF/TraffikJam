@@ -200,7 +200,7 @@ namespace GameJam
             // common movement between both states
             if (currState.IsKeyDown(Keys.Up) || currState.IsKeyDown(Keys.Space))
             { 
-                position.Y -= speed; 
+                position.Y -= 10; 
             }
             if (currState.IsKeyDown(Keys.Left))
             {
