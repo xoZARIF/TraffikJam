@@ -129,7 +129,7 @@ namespace GameJam
             // update enemy
             enemyManager.Update(gameTime);
 
-            levelManager.UpdateLevel(gameTime);
+            levelManager.UpdateLevel(gameTime, new Vector2(player.X, player.Y));
 
             base.Update(gameTime);
         }

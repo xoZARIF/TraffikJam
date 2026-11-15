@@ -24,7 +24,10 @@ namespace GameJam
         private int spriteWidth;
         private int spriteHeight;
         private int intendedSize;
-        private List<Rectangle> backgroundSourceRctangle;
+        private List<Rectangle> backgroundSourceRectangles;
+        private Vector2 worldPosition;
+        private Vector2 worldToScreen;
+        private List<Rectangle> originalPositions;
 
         // PROPERTY
         public List<GameObject> Platforms
@@ -59,11 +62,15 @@ namespace GameJam
             spriteHeight = 1;
             intendedSize = 64;
 
-            backgroundSourceRctangle = new List<Rectangle>();
+            backgroundSourceRectangles = new List<Rectangle>();
+
+            worldPosition = Vector2.Zero;
+            worldToScreen = Vector2.Zero;
+            originalPositions = new List<Rectangle>();
 
             for(int r = 0; r < backgroundAssets.Count; r++)
             {
-                backgroundSourceRctangle.Add(new Rectangle(0, 0, windowWidth, windowHeight));
+                backgroundSourceRectangles.Add(new Rectangle(0, 0, windowWidth, windowHeight));
             }
 
             StreamReader reader = null!;
@@ -162,13 +169,27 @@ namespace GameJam
                     reader.Close();
                 }
             }
+
+            for (int o = 0; o < platforms.Count; o++)
+            {
+                originalPositions.Add(new Rectangle(platforms[o].X, platforms[o].Y, intendedSize, intendedSize));
+            }
         }
 
         public void DisplayLevel()
         {
             for(int d = 0; d < backgroundAssets.Count; d++)
             {
-                _spriteBatch.Draw(backgroundAssets[d], Vector2.Zero, backgroundSourceRctangle[d], Color.White, 0f, Vector2.Zero, 2f, SpriteEffects.None, 0f);
+                _spriteBatch.Draw(
+                    backgroundAssets[d], 
+                    Vector2.Zero, 
+                    backgroundSourceRectangles[d], 
+                    Color.White, 
+                    0f, 
+                    Vector2.Zero, 
+                    2f, 
+                    SpriteEffects.None, 
+                    0f);
             }
 
             foreach(GameObject block in platforms)
@@ -178,22 +199,52 @@ namespace GameJam
 
         }
 
-        public void UpdateLevel(GameTime gameTime)
+        public void UpdateLevel(GameTime gameTime, Vector2 playerPosition)
         {
+            worldToScreen = playerPosition - worldPosition;
+
             KeyboardState currentState = Keyboard.GetState();
+
+
+            if (worldPosition.X < 0)
+            {
+                worldPosition.X = 0;
+
+                foreach (GameObject block in platforms)
+                {
+                    block.X = originalPositions[platforms.IndexOf(block)].X;
+                }
+            }
+            
+            if (worldPosition.X > backgroundAssets[4].Width - 1280)
+            {
+                worldPosition.X = backgroundAssets[4].Width - 1280;
+
+                foreach (GameObject block in platforms)
+                {
+                    block.X = originalPositions[platforms.IndexOf(block)].X;
+                }
+            }
 
             if (currentState.IsKeyDown(Keys.Right))
             {
                 for (int r = 0; r < 4; r++)
                 {
-                    if (backgroundSourceRctangle[r+1].X > backgroundAssets[r+1].Width - 1280)
+                    if (backgroundSourceRectangles[r+1].X > backgroundAssets[r+1].Width - 1280)
                     {
-                        backgroundSourceRctangle[r+1] = new Rectangle(backgroundAssets[r+1].Width - 1280, 0, windowWidth, windowHeight);
+                        backgroundSourceRectangles[r+1] = new Rectangle(backgroundAssets[r+1].Width - 1280, 0, windowWidth, windowHeight);
                     }
                     else
                     {
-                        backgroundSourceRctangle[r+1] = new Rectangle(backgroundSourceRctangle[r+1].X + r+1, 0, windowWidth, windowHeight);
+                        backgroundSourceRectangles[r+1] = new Rectangle(backgroundSourceRectangles[r+1].X + r+1, 0, windowWidth, windowHeight);
                     }
+                }
+
+                worldPosition.X += 5;
+
+                foreach (GameObject block in platforms)
+                {
+                    block.X -= 6;
                 }
             }
 
@@ -202,15 +253,27 @@ namespace GameJam
 
                 for (int r = 0; r < 4; r++)
                 {
-                    if (backgroundSourceRctangle[r + 1].X < 0)
+                    if (backgroundSourceRectangles[r + 1].X < 0)
                     {
-                        backgroundSourceRctangle[r + 1] = new Rectangle(0, 0, windowWidth, windowHeight);
+                        backgroundSourceRectangles[r + 1] = new Rectangle(0, 0, windowWidth, windowHeight);
                     }
                     else
                     {
-                        backgroundSourceRctangle[r + 1] = new Rectangle(backgroundSourceRctangle[r + 1].X - (r + 1), 0, windowWidth, windowHeight);
+                        backgroundSourceRectangles[r + 1] = new Rectangle(backgroundSourceRectangles[r + 1].X - (r + 1), 0, windowWidth, windowHeight);
                     }
                 }
+
+                worldPosition.X -= 5;
+
+                foreach (GameObject block in platforms)
+                {
+                    block.X += 6;
+                }
+            }
+
+            if (currentState.IsKeyDown(Keys.Up))
+            {
+                worldPosition.Y -= 5;
             }
         }
     }
