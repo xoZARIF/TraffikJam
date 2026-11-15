@@ -71,7 +71,7 @@ namespace GameJam
             player = new Player(bubbleSprite, downSprite, idlePosition, downPosition);
 
 
-            background = Content.Load<Texture2D>("CanyonDesert-BGStatic");
+            // background = Content.Load<Texture2D>("CanyonDesert-BGStatic");
             backgroundLayers.Add(Content.Load<Texture2D>("CanyonDesert-BGlayer1")); // Layer 1
             backgroundLayers.Add(Content.Load<Texture2D>("layer2")); // Layer 2
             backgroundLayers.Add(Content.Load<Texture2D>("layer3")); // Layer 3

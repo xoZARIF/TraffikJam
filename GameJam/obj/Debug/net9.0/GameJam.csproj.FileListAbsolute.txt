@@ -89,7 +89,6 @@ C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\ne
 C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\Content\tilesheetEDIT.xnb
 C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\Content\bubble-character.xnb
 C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\Content\cacto run.xnb
-C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\Content\CanyonDesert-BGstatic.xnb
 C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\Content\needle.xnb
 C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\Content\TilesetPaid-CanyonDesertPlatformer.xnb
 C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\Content\water-texture.xnb
@@ -149,3 +148,12 @@ E:\School Stuff\TraffikJam\GameJam\bin\Debug\net9.0\Content\layer2.xnb
 E:\School Stuff\TraffikJam\GameJam\bin\Debug\net9.0\Content\layer3.xnb
 E:\School Stuff\TraffikJam\GameJam\bin\Debug\net9.0\Content\layer4.xnb
 E:\School Stuff\TraffikJam\GameJam\bin\Debug\net9.0\Content\layer5.xnb
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\Content\CanyonDesert-BGlayer2.xnb
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\Content\CanyonDesert-BGlayer3.xnb
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\Content\CanyonDesert-BGlayer4.xnb
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\Content\CanyonDesert-BGlayer5.xnb
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\Content\CanyonDesert-BGlayer1.xnb
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\Content\layer2.xnb
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\Content\layer3.xnb
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\Content\layer4.xnb
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\Content\layer5.xnb
