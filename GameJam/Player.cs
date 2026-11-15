@@ -58,25 +58,10 @@ namespace GameJam
                         position.X += speed;
                     }
 
-            if (currState.IsKeyDown(Keys.Down))
-            {
-               currentState = PlayerState.Crouching;
-            }
-            if (currState.IsKeyDown(Keys.Up))
-            {
-                position.Y -= speed;
-            }
-            if (currState.IsKeyDown(Keys.Left))
-            {
-                position.X -= speed;
-            }
-            if (currState.IsKeyDown(Keys.Right))
-            {
-                position.X += speed;
-            }
                     break;
 
                 case PlayerState.Crouching:
+
 
                     if (currState.IsKeyDown(Keys.Right))
                     {
@@ -90,7 +75,6 @@ namespace GameJam
                     {
                         currentState = PlayerState.Idle;
                     }
-
                     break;
             }
         }
@@ -111,7 +95,7 @@ namespace GameJam
                 spriteBatch.Draw(
                     downSprite,
                     position,
-                    Color.White
+                    Color.Red
                 );
             }
 
