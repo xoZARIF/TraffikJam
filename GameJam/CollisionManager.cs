@@ -65,26 +65,23 @@ namespace GameJam
         private Rectangle CollisionSide(Player player, Block block)
         {
             Rectangle playerRect = new Rectangle(player.X, player.Y, player.Width, player.Height);
-            //For squished version
-            Rectangle otherRect = new Rectangle(player.oX, player.oY, player.oWidth, player.oHeight);
+            ////For squished version
+            //Rectangle otherRect = new Rectangle(player.oX, player.oY, player.oWidth, player.oHeight);
 
             Rectangle blockRect = new Rectangle(block.X, block.Y, block.Width, block.Height);
 
-            if(playerRect.Intersects(blockRect) == true)
-            {
-                return Rectangle.Intersect(playerRect, blockRect);
-            }
+            //if(playerRect.Intersects(blockRect) == true)
+            //{
+            //    return Rectangle.Intersect(playerRect, blockRect);
+            //}
 
-            else if(otherRect.Intersects(blockRect) == true)
-            {
-                return Rectangle.Intersect(playerRect, blockRect);
-            }
+            //else if(otherRect.Intersects(blockRect) == true)
+            //{
+            //    return Rectangle.Intersect(playerRect, blockRect);
+            //}
 
             //placeholder?
             return Rectangle.Intersect(playerRect, blockRect); 
-
-
-            
         }
 
 
