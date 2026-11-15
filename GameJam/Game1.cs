@@ -121,15 +121,15 @@ namespace GameJam
 
             player.Update(gameTime);
 
-            // collision manager
-            collisionManager.Update();
-
             // TODO: Add your update logic here
 
             // update enemy
             enemyManager.Update(gameTime);
 
             levelManager.UpdateLevel(gameTime, new Vector2(player.X, player.Y));
+
+            // collision manager
+            collisionManager.Update();
 
             base.Update(gameTime);
         }

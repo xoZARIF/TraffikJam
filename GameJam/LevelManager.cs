@@ -228,46 +228,51 @@ namespace GameJam
 
             if (currentState.IsKeyDown(Keys.Right))
             {
-                for (int r = 0; r < 4; r++)
+                if (worldPosition.X < (backgroundAssets[4].Width - 1280))
                 {
-                    if (backgroundSourceRectangles[r+1].X > backgroundAssets[r+1].Width - 1280)
-                    {
-                        backgroundSourceRectangles[r+1] = new Rectangle(backgroundAssets[r+1].Width - 1280, 0, windowWidth, windowHeight);
-                    }
-                    else
-                    {
-                        backgroundSourceRectangles[r+1] = new Rectangle(backgroundSourceRectangles[r+1].X + r+1, 0, windowWidth, windowHeight);
-                    }
-                }
+                    worldPosition.X += 5;
 
-                worldPosition.X += 5;
+                    for (int r = 0; r < 4; r++)
+                    {
+                        if (backgroundSourceRectangles[r + 1].X > backgroundAssets[r + 1].Width - 1280)
+                        {
+                            backgroundSourceRectangles[r + 1] = new Rectangle(backgroundAssets[r + 1].Width - 1280, 0, windowWidth, windowHeight);
+                        }
+                        else
+                        {
+                            backgroundSourceRectangles[r + 1] = new Rectangle(backgroundSourceRectangles[r + 1].X + r + 1, 0, windowWidth, windowHeight);
+                        }
+                    }
 
-                foreach (GameObject block in platforms)
-                {
-                    block.X -= 6;
+                    foreach (GameObject block in platforms)
+                    {
+                        block.X -= 6;
+                    }
                 }
             }
 
             if (currentState.IsKeyDown(Keys.Left))
             {
-
-                for (int r = 0; r < 4; r++)
+                if (worldPosition.X > 0)
                 {
-                    if (backgroundSourceRectangles[r + 1].X < 0)
-                    {
-                        backgroundSourceRectangles[r + 1] = new Rectangle(0, 0, windowWidth, windowHeight);
-                    }
-                    else
-                    {
-                        backgroundSourceRectangles[r + 1] = new Rectangle(backgroundSourceRectangles[r + 1].X - (r + 1), 0, windowWidth, windowHeight);
-                    }
-                }
+                    worldPosition.X -= 5;
 
-                worldPosition.X -= 5;
+                    for (int r = 0; r < 4; r++)
+                    {
+                        if (backgroundSourceRectangles[r + 1].X < 0)
+                        {
+                            backgroundSourceRectangles[r + 1] = new Rectangle(0, 0, windowWidth, windowHeight);
+                        }
+                        else
+                        {
+                            backgroundSourceRectangles[r + 1] = new Rectangle(backgroundSourceRectangles[r + 1].X - (r + 1), 0, windowWidth, windowHeight);
+                        }
+                    }
 
-                foreach (GameObject block in platforms)
-                {
-                    block.X += 6;
+                    foreach (GameObject block in platforms)
+                    {
+                        block.X += 6;
+                    }
                 }
             }
 
