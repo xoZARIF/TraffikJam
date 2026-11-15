@@ -79,6 +79,7 @@ namespace GameJam
                 30, // block size placeholder
                 GraphicsDevice.Viewport.Width,
                 GraphicsDevice.Viewport.Height);
+            enemyManager = new EnemyManager();
 
             enemyManager.AddEnemy(enemy);
         }
