@@ -14,8 +14,8 @@ namespace GameJam
         private Player player;
         private Texture2D bubbleSprite;
         private Texture2D downSprite;
-        private Rectangle bubblePosition;
-
+        private Rectangle idlePosition;
+        private Rectangle downPosition;
         // Enemy
         private EnemyManager enemyManager;
         private Texture2D cactusSprite;
@@ -61,9 +61,10 @@ namespace GameJam
 
             bubbleSprite = Content.Load<Texture2D>("bubble-character");
             downSprite = Content.Load<Texture2D>("squished-bubble");
-            bubblePosition = new Rectangle((int)(width / 2), (int)(height / 2), (int)(bubbleSprite.Width * 0.5), (int)(bubbleSprite.Height * 0.5));
-            
-            player = new Player(bubbleSprite, downSprite, bubblePosition);
+            idlePosition = new Rectangle((int)(width / 2), (int)(height / 2), (int)(bubbleSprite.Width * 0.5), (int)(bubbleSprite.Height * 0.5));
+            downPosition = new Rectangle((int)(width / 2), (int)(height / 2 + (int)(downSprite.Width * 0.25)), (int)(downSprite.Width * 0.5), (int)(downSprite.Height * 0.5));
+
+            player = new Player(bubbleSprite, downSprite, idlePosition, downPosition);
 
 
             background = Content.Load<Texture2D>("CanyonDesert-BGStatic");

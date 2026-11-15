@@ -20,15 +20,20 @@ namespace GameJam
         public Texture2D idleSprite;
         protected Texture2D downSprite;
         protected Rectangle position;
+        protected Rectangle otherPosition;
 
-        PlayerState currentState = PlayerState.Idle;
 
-        internal Player(Texture2D spriteIdel, Texture2D spriteDown, Rectangle Aposition)
+        PlayerState currentState = PlayerState.Crouching;
+
+        internal Player(Texture2D spriteIdle, Texture2D spriteDown, Rectangle Iposition, Rectangle oPosition)
         {
-            this.idleSprite = spriteIdel;
+            this.idleSprite = spriteIdle;
             this.downSprite = spriteDown;
-            this.position = Aposition;
+
+            this.position = Iposition;
+            this.otherPosition = oPosition;
         }
+        
 
         public void Update(GameTime gameTime)
         {
@@ -48,14 +53,17 @@ namespace GameJam
                     if (currState.IsKeyDown(Keys.Up))
                     {
                         position.Y -= speed;
+                        otherPosition.Y -= speed;
                     }
                     if (currState.IsKeyDown(Keys.Left))
                     {
                         position.X -= speed;
+                        otherPosition.X -= speed;
                     }
                     if (currState.IsKeyDown(Keys.Right))
                     {
                         position.X += speed;
+                        otherPosition.X += speed;
                     }
 
                     break;
@@ -63,18 +71,26 @@ namespace GameJam
                 case PlayerState.Crouching:
 
 
-                    if (currState.IsKeyDown(Keys.Right))
+                    if (currState.IsKeyUp(Keys.Down))
                     {
                         currentState = PlayerState.Idle;
                     }
-                    if (currState.IsKeyDown(Keys.Up))
+                    if (currState.IsKeyDown(Keys.Up) || currState.IsKeyDown(Keys.Space))
                     {
-                        currentState = PlayerState.Idle;
+                        position.Y -= speed;
+                        otherPosition.Y -= speed;
                     }
                     if (currState.IsKeyDown(Keys.Left))
                     {
-                        currentState = PlayerState.Idle;
+                        position.X -= speed;
+                        otherPosition.X -= speed;
                     }
+                    if (currState.IsKeyDown(Keys.Right))
+                    {
+                        position.X += speed;
+                        otherPosition.X += speed;
+                    }
+
                     break;
             }
         }
@@ -94,8 +110,8 @@ namespace GameJam
             {
                 spriteBatch.Draw(
                     downSprite,
-                    position,
-                    Color.Red
+                    otherPosition,
+                    Color.White
                 );
             }
 
