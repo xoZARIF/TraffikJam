@@ -126,6 +126,17 @@ namespace GameJam
                         splitData = line.Split(',');
 
                         // Create Platform
+                        platforms.Add(new Block(
+                            tileAsset,
+                            new Rectangle(
+                                intendedSize * int.Parse(splitData[3]),
+                                intendedSize * int.Parse(splitData[2]),
+                                intendedSize,
+                                intendedSize),
+                            textureMap[splitData[1]],
+                            1,
+                            windowWidth,
+                            windowHeight));
                     }
                 }
             }
