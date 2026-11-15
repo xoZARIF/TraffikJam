@@ -3,11 +3,7 @@
   <SourceFile>C:/Users/natha/OneDrive/Documents/GitHub/TraffikJam/GameJam/Content/tilesheetEDIT.png</SourceFile>
   <SourceTime>2026-11-14T19:26:15.8611801-05:00</SourceTime>
   <DestFile>C:/Users/natha/OneDrive/Documents/GitHub/TraffikJam/GameJam/Content/bin/DesktopGL/Content/tilesheetEDIT.xnb</DestFile>
-<<<<<<< Updated upstream
-  <DestTime>2026-11-14T20:47:19.6261733-05:00</DestTime>
-=======
-  <DestTime>2026-11-14T20:22:14.3442875-05:00</DestTime>
->>>>>>> Stashed changes
+  <DestTime>2026-11-14T20:51:32.0904846-05:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2026-08-14T17:50:10-04:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
