@@ -40,6 +40,9 @@ namespace GameJam
         private List<Texture2D> backgroundLayers;
         private Texture2D tileset;
 
+        private Texture2D endSign;
+        private Vector2 endSignPosition;
+
         //Collisions
         private CollisionManager collisionManager;
 
@@ -105,6 +108,8 @@ namespace GameJam
             backgroundLayers.Add(Content.Load<Texture2D>("layer4")); // Layer 4
             backgroundLayers.Add(Content.Load<Texture2D>("layer5")); // Layer 5
             tileset = Content.Load<Texture2D>("tilesheetEDIT");
+            endSign = Content.Load<Texture2D>("end-sign");
+            endSignPosition = new Vector2(3072, 64);
 
             levelManager = new LevelManager(
                 backgroundLayers,
@@ -217,6 +222,10 @@ namespace GameJam
                     break;
                 case GameState.Game:
                     levelManager.DisplayLevel();
+                    _spriteBatch.Draw(
+                        endSign,
+                        endSignPosition,
+                        Color.White);
 
                     //_spriteBatch.Draw(bubbleSprite, bubblePosition, Color.White);
                     player.Draw(_spriteBatch);
