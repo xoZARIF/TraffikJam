@@ -8,10 +8,12 @@ namespace GameJam
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
-        
+
         // Player
         // private Player player;
+        private Player player;
         private Texture2D bubbleSprite;
+        private Texture2D downSprite;
         private Rectangle bubblePosition;
 
         // Enemy
@@ -56,8 +58,13 @@ namespace GameJam
             int width = GraphicsDevice.Viewport.Width;
             int height = GraphicsDevice.Viewport.Height;
             //test image loading
+
             bubbleSprite = Content.Load<Texture2D>("bubble-character");
+            downSprite = Content.Load<Texture2D>("squished-bubble");
             bubblePosition = new Rectangle((int)(width / 2), (int)(height / 2), (int)(bubbleSprite.Width * 0.5), (int)(bubbleSprite.Height * 0.5));
+            
+            player = new Player(bubbleSprite, downSprite, bubblePosition);
+
 
             background = Content.Load<Texture2D>("CanyonDesert-BGStatic");
             tileset = Content.Load<Texture2D>("tilesheetEDIT");
@@ -96,24 +103,25 @@ namespace GameJam
 
             KeyboardState currState = Keyboard.GetState();
 
-            int speed = 5;
+            player.Update(gameTime);
+            //int speed = 5;
 
-            if (currState.IsKeyDown(Keys.Down))
-            {
-                bubblePosition.Y += speed;
-            }
-            if (currState.IsKeyDown(Keys.Up))
-            {
-                bubblePosition.Y -= speed;
-            }
-            if (currState.IsKeyDown(Keys.Left))
-            {
-                bubblePosition.X -= speed;
-            }
-            if (currState.IsKeyDown(Keys.Right))
-            {
-                bubblePosition.X += speed;
-            }
+            //if (currState.IsKeyDown(Keys.Down))
+            //{
+            //    bubblePosition.Y += speed;
+            //}
+            //if (currState.IsKeyDown(Keys.Up))
+            //{
+            //    bubblePosition.Y -= speed;
+            //}
+            //if (currState.IsKeyDown(Keys.Left))
+            //{
+            //    bubblePosition.X -= speed;
+            //}
+            //if (currState.IsKeyDown(Keys.Right))
+            //{
+            //    bubblePosition.X += speed;
+            //}
 
 
             // TODO: Add your update logic here
@@ -132,8 +140,8 @@ namespace GameJam
 
             levelManager.DisplayLevel();
 
-            _spriteBatch.Draw(bubbleSprite, bubblePosition, Color.White);
-            
+            //_spriteBatch.Draw(bubbleSprite, bubblePosition, Color.White);
+            player.Draw(_spriteBatch);
 
             // draw enemy
             enemyManager.Draw(_spriteBatch);

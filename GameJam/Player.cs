@@ -17,20 +17,21 @@ namespace GameJam
 {
     internal class Player
     {
-        protected Texture2D idleSprite;
+        public Texture2D idleSprite;
         protected Texture2D downSprite;
         protected Rectangle position;
 
         PlayerState currentState = PlayerState.Idle;
 
-        internal Player(Texture2D idleSprite, Texture2D downSprite, Rectangle dimmensions)
+        internal Player(Texture2D spriteIdel, Texture2D spriteDown, Rectangle Aposition)
         {
-
+            this.idleSprite = spriteIdel;
+            this.downSprite = spriteDown;
+            this.position = Aposition;
         }
 
         public void Update(GameTime gameTime)
         {
-
 
             KeyboardState currState = Keyboard.GetState();
 
@@ -93,21 +94,26 @@ namespace GameJam
                     break;
             }
         }
-
         public void Draw(SpriteBatch spriteBatch)
         {
 
-            spriteBatch.Draw(
-                idleSprite,
-                position,
-                Color.White
-            );
+            if (currentState == PlayerState.Idle)
+            {
+                spriteBatch.Draw(
+                    idleSprite,
+                    position,
+                    Color.White
+                );
+            }
 
-            spriteBatch.Draw(
-                downSprite,
-                position,
-                Color.White
-            );
+            if (currentState == PlayerState.Crouching)
+            {
+                spriteBatch.Draw(
+                    downSprite,
+                    position,
+                    Color.White
+                );
+            }
 
         }
     }
