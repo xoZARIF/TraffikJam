@@ -216,8 +216,23 @@ namespace GameJam
                 case GravityState.InAir:
                     position.Y += fallGravity;
                     break;
-                }
             }
+
+            // clamp player position so it doesnt surpass the walls
+            if (position.Y < 0)
+            {
+                position.Y = 0;
+            }
+            if (position.X < 0)
+            {
+                position.X = 0;
+            }
+            if (position.X + position.Width > 1280)
+            {
+                position.X = 1280 - position.Width;
+            }
+            
+        }
 
 
         public void Draw(SpriteBatch spriteBatch)
