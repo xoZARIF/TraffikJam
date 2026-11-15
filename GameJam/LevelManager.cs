@@ -222,13 +222,13 @@ namespace GameJam
 
                 foreach (GameObject block in platforms)
                 {
-                    block.X = originalPositions[platforms.IndexOf(block)].X;
+                  //  block.X = originalPositions[platforms.IndexOf(block)].X;
                 }
             }
 
             if (currentState.IsKeyDown(Keys.Right))
             {
-                if (worldPosition.X < (backgroundAssets[4].Width - 1280))
+                //if (worldPosition.X < (backgroundAssets[1].Width - 1280))
                 {
                     worldPosition.X += 5;
 
@@ -253,7 +253,7 @@ namespace GameJam
 
             if (currentState.IsKeyDown(Keys.Left))
             {
-                if (worldPosition.X > 0)
+                //if (worldPosition.X > 0)
                 {
                     worldPosition.X -= 5;
 
