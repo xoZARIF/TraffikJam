@@ -6,4 +6,14 @@
 // File format:
 // Name of tile type,row,column
 -----------------------------------
-BLOCK-v1,1,0
+BLOCK-v1,6,9
+BLOCK-v1,6,10
+BLOCK-v1,6,11
+
+BLOCK-v1,2,13
+BLOCK-v1,2,14
+BLOCK-v1,2,15
+
+BLOCK-v1,5,13
+BLOCK-v1,3,14
+BLOCK-v1,4,15
