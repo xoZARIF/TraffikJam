@@ -117,7 +117,8 @@ namespace GameJam
                 new Rectangle((int)endSignPosition.X, (int)endSignPosition.Y, endSign.Width, endSign.Height), 
                 1, 
                 windowWidth, 
-                windowHeight);
+                windowHeight,
+                player);
 
             levelManager = new LevelManager(
                 backgroundLayers,
@@ -178,7 +179,10 @@ namespace GameJam
                 case GameState.Game:
                     player.Update(gameTime);
                     enemyManager.Update(gameTime);
+
                     levelManager.UpdateLevel(gameTime, new Vector2(player.X, player.Y));
+                    winObject.Update(gameTime);
+
                     collisionManager.Update();
 
                     // check lose condition

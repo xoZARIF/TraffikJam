@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
@@ -29,6 +30,7 @@ namespace GameJam
         private Vector2 worldToScreen;
         private List<Rectangle> originalPositions;
         private WinObject winObject;
+        private int originalWinx;
         private Vector2 winObjectOriginalPosition;
 
         // PROPERTY
@@ -310,7 +312,12 @@ namespace GameJam
                 platforms[i].X = originalPositions[i].X;
                 platforms[i].Y = originalPositions[i].Y;
             }
-        }  
+
+            winObject.X = (int)winObjectOriginalPosition.X;
+            winObject.Y = (int)winObjectOriginalPosition.Y;
+
+
+        }
     }
 
 }

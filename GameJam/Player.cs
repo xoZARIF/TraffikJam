@@ -42,10 +42,18 @@ namespace GameJam
         // player alive state
         private bool isAlive = true;
 
+        private bool won = false;
+
         public bool IsAlive
         {
             get { return isAlive; }
             set { isAlive = value; }
+        }
+
+        public bool Won
+        {
+            get { return won; }
+            set { won = value; }
         }
 
         public int X
@@ -274,6 +282,7 @@ namespace GameJam
         public void Reset(int startX, int startY)
         {
             isAlive = true;
+            won = false;
             position.X = startX;
             position.Y = startY;
             position.Width = width;
