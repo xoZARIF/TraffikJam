@@ -28,6 +28,8 @@ namespace GameJam
         private Vector2 worldPosition;
         private Vector2 worldToScreen;
         private List<Rectangle> originalPositions;
+        private WinObject winObject;
+        private Vector2 winObjectOriginalPosition;
 
         // PROPERTY
         public List<GameObject> Platforms
@@ -47,13 +49,14 @@ namespace GameJam
         }
 
         // CONSTRUCTOR
-        public LevelManager(List<Texture2D> backgrounds, Texture2D tileset, SpriteBatch spriteBatch, int windowWidth, int windowHeight, string textureFile)
+        public LevelManager(List<Texture2D> backgrounds, Texture2D tileset, SpriteBatch spriteBatch, int windowWidth, int windowHeight, string textureFile, WinObject winObject)
         {
             this.backgroundAssets = backgrounds;
             this.tileAsset = tileset;
             this._spriteBatch = spriteBatch;
             this.windowWidth = windowWidth;
             this.windowHeight = windowHeight;
+            this.winObject = winObject;
 
             platforms = new List<GameObject>();
             textureMap = new Dictionary<string, Rectangle>();
@@ -67,6 +70,8 @@ namespace GameJam
             worldPosition = Vector2.Zero;
             worldToScreen = Vector2.Zero;
             originalPositions = new List<Rectangle>();
+
+            winObjectOriginalPosition = new Vector2(winObject.X, winObject.Y);
 
             for(int r = 0; r < backgroundAssets.Count; r++)
             {
@@ -197,6 +202,8 @@ namespace GameJam
                 block.Draw(_spriteBatch);
             }
 
+            winObject.Draw(_spriteBatch);
+
         }
 
         public void UpdateLevel(GameTime gameTime, Vector2 playerPosition)
@@ -214,6 +221,9 @@ namespace GameJam
                 {
                     block.X = originalPositions[platforms.IndexOf(block)].X;
                 }
+
+                winObject.X = (int)winObjectOriginalPosition.X;
+                winObject.Y = (int)winObjectOriginalPosition.Y;
             }
             
             if (worldPosition.X > backgroundAssets[1].Width - 1280)
@@ -231,6 +241,7 @@ namespace GameJam
                 //if (worldPosition.X < (backgroundAssets[1].Width - 1280))
                 {
                     worldPosition.X += 5;
+                    winObject.X -= 6;
 
                     for (int r = 0; r < 4; r++)
                     {
@@ -256,6 +267,7 @@ namespace GameJam
                 if (worldPosition.X > 0)
                 {
                     worldPosition.X -= 5;
+                    winObject.X += 6;
 
                     for (int r = 0; r < 4; r++)
                     {

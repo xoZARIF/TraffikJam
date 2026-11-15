@@ -40,6 +40,7 @@ namespace GameJam
         private List<Texture2D> backgroundLayers;
         private Texture2D tileset;
 
+        private WinObject winObject;
         private Texture2D endSign;
         private Vector2 endSignPosition;
 
@@ -109,7 +110,14 @@ namespace GameJam
             backgroundLayers.Add(Content.Load<Texture2D>("layer5")); // Layer 5
             tileset = Content.Load<Texture2D>("tilesheetEDIT");
             endSign = Content.Load<Texture2D>("end-sign");
-            endSignPosition = new Vector2(3072, 64);
+            endSignPosition = new Vector2(3072, 0);
+
+            winObject = new WinObject(
+                endSign, 
+                new Rectangle((int)endSignPosition.X, (int)endSignPosition.Y, endSign.Width, endSign.Height), 
+                1, 
+                windowWidth, 
+                windowHeight);
 
             levelManager = new LevelManager(
                 backgroundLayers,
@@ -117,7 +125,8 @@ namespace GameJam
                 _spriteBatch,
                 windowWidth,
                 windowHeight,
-                "../../../Content/gameJamTextureMapping.txt");
+                "../../../Content/gameJamTextureMapping.txt",
+                winObject);
             levelManager.LoadLevel("../../../Content/gameJamLevelFile.txt");
 
             // TODO: use this.Content to load your game content here
@@ -179,10 +188,10 @@ namespace GameJam
                     }
 
                     // check win condition
-                    // if (player.Won)
-                    // {
-                    //      currentGameState = GameState.Win;
-                    // }
+                    if (player.Won)
+                    {
+                          currentGameState = GameState.Win;
+                    }
                     break;
                 case GameState.Win:
                 case GameState.Lose:
@@ -222,10 +231,6 @@ namespace GameJam
                     break;
                 case GameState.Game:
                     levelManager.DisplayLevel();
-                    _spriteBatch.Draw(
-                        endSign,
-                        endSignPosition,
-                        Color.White);
 
                     //_spriteBatch.Draw(bubbleSprite, bubblePosition, Color.White);
                     player.Draw(_spriteBatch);
