@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
 
 enum PlayerState
 {
@@ -37,6 +38,15 @@ namespace GameJam
 
         PlayerState currentState = PlayerState.Crouching;
         GravityState gravity = GravityState.Grounded;
+
+        // player alive state
+        private bool isAlive;
+
+        public bool IsAlive
+        {
+            get { return isAlive; }
+            set { isAlive = value; }
+        }
 
         public int X
         {

@@ -31,9 +31,9 @@ namespace GameJam
 
         public void Update()
         {
-            //// call methods of collision
+            // call methods of collision
             PlayerToBlocks();
-            //PlayerToEnemies();
+            PlayerToEnemies();
         }
 
 
@@ -87,18 +87,18 @@ namespace GameJam
 
         //// COLLISION HANDLING
 
-        //// Handles collision b2n player & enemies
-        //private void PlayerToEnemies()
-        //{
-        //    foreach (Enemy e in enemies)
-        //    {
-        //        if (RectToRect(player, e))
-        //        {
-        //            player.IsAlive = false; // for when PLAYER DIES, whatever lose state incorporated here
-        //            break;
-        //        }    
-        //    }
-        //}
+        // Handles collision b2n player & enemies
+        private void PlayerToEnemies()
+        {
+            foreach (Enemy e in enemies)
+            {
+                if (RectToRect(player, e))
+                {
+                    player.IsAlive = false; // for when PLAYER DIES, whatever lose state incorporated here
+                    break;
+                }
+            }
+        }
 
         //// Handles collision b2n player & blocks
         private void PlayerToBlocks()

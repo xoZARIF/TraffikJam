@@ -5,6 +5,14 @@ using System.Collections.Generic;
 
 namespace GameJam
 {
+    enum GameState 
+    { 
+        Menu,
+        Game,
+        Win,
+        Lose
+    }
+
     public class Game1 : Game
     {
         private GraphicsDeviceManager _graphics;
@@ -130,6 +138,8 @@ namespace GameJam
 
             // collision manager
             collisionManager.Update();
+
+
 
             base.Update(gameTime);
         }
