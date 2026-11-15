@@ -156,3 +156,6 @@ C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\ne
 C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\Content\layer3.xnb
 C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\Content\layer4.xnb
 C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\Content\layer5.xnb
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\Content\Lose.xnb
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\Content\Menu.xnb
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\Content\Win.xnb

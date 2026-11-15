@@ -40,7 +40,7 @@ namespace GameJam
         GravityState gravity = GravityState.Grounded;
 
         // player alive state
-        private bool isAlive;
+        private bool isAlive = true;
 
         public bool IsAlive
         {
@@ -269,6 +269,17 @@ namespace GameJam
             // if player is idle use idleSprite, if not use the downSprite
             Texture2D currentSprite = (currentState == PlayerState.Idle) ? idleSprite : downSprite;
             spriteBatch.Draw(currentSprite, position, Color.White);
+        }
+
+        public void Reset(int startX, int startY)
+        {
+            isAlive = true;
+            position.X = startX;
+            position.Y = startY;
+            position.Width = width;
+            position.Height = height;
+            currentState = PlayerState.Idle;
+            gravity = GravityState.InAir;
         }
     }
 }

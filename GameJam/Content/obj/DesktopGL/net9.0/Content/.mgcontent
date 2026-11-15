@@ -11,13 +11,19 @@
     <File>C:/Users/zarif_8suk2oy/OneDrive/Documents/GitHub/TraffikJam/GameJam/Content/layer3.png</File>
     <File>C:/Users/zarif_8suk2oy/OneDrive/Documents/GitHub/TraffikJam/GameJam/Content/layer4.png</File>
     <File>C:/Users/zarif_8suk2oy/OneDrive/Documents/GitHub/TraffikJam/GameJam/Content/layer5.png</File>
+    <File>C:/Users/zarif_8suk2oy/OneDrive/Documents/GitHub/TraffikJam/GameJam/Content/Lose.png</File>
+    <File>C:/Users/zarif_8suk2oy/OneDrive/Documents/GitHub/TraffikJam/GameJam/Content/Menu.png</File>
     <File>C:/Users/zarif_8suk2oy/OneDrive/Documents/GitHub/TraffikJam/GameJam/Content/needle.jpg</File>
     <File>C:/Users/zarif_8suk2oy/OneDrive/Documents/GitHub/TraffikJam/GameJam/Content/squished-bubble.png</File>
     <File>C:/Users/zarif_8suk2oy/OneDrive/Documents/GitHub/TraffikJam/GameJam/Content/TilesetPaid-CanyonDesertPlatformer.png</File>
     <File>C:/Users/zarif_8suk2oy/OneDrive/Documents/GitHub/TraffikJam/GameJam/Content/tilesheetEDIT.png</File>
     <File>C:/Users/zarif_8suk2oy/OneDrive/Documents/GitHub/TraffikJam/GameJam/Content/water-texture.jpg</File>
+    <File>C:/Users/zarif_8suk2oy/OneDrive/Documents/GitHub/TraffikJam/GameJam/Content/Win.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

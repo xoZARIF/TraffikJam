@@ -123,7 +123,7 @@ namespace GameJam
             // create enemy and add to manager
             Enemy enemy = new Enemy(
                 cactusSprite,
-                new Rectangle((int)(width / 2), (int)(height / 2), (int)(bubbleSprite.Width * 0.8), (int)(bubbleSprite.Height * 0.8)), // starting pos placeholder
+                new Rectangle(900, 400, (int)(bubbleSprite.Width * 0.8), (int)(bubbleSprite.Height * 0.8)), // starting pos placeholder
                 30, // block size placeholder
                 GraphicsDevice.Viewport.Width,
                 GraphicsDevice.Viewport.Height);
@@ -246,12 +246,17 @@ namespace GameJam
         private void ResetGame()
         {
             // reset player
-            player.IsAlive = true;
-            player.X = windowWidth / 2;
-            player.Y = windowHeight / 2;
+            player.Reset(windowWidth / 2, windowHeight / 2);
 
-            // reload level and enemies
+            levelManager.ResetLevel();
 
+            enemyManager.Clear();
+            enemyManager.AddEnemy(new Enemy(
+                cactusSprite,
+                new Rectangle(900, 400, (int)(bubbleSprite.Width * 0.8), (int)(bubbleSprite.Height * 0.8)), // starting pos placeholder
+                30, // block size placeholder
+                GraphicsDevice.Viewport.Width,
+                GraphicsDevice.Viewport.Height));
         }
     }
 }
