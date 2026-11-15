@@ -21,12 +21,20 @@ namespace GameJam
         private int windowWidth;
         private int windowHeight;
 
+        // Level
+        private LevelManager levelManager;
+        private Texture2D background;
+        private Texture2D tileset;
+
 
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
             IsMouseVisible = true;
+
+            windowWidth = this.GraphicsDevice.Viewport.Width;
+            windowHeight = this.GraphicsDevice.Viewport.Height;
         }
 
         protected override void Initialize()
@@ -44,6 +52,18 @@ namespace GameJam
             //test image loading
             bubbleSprite = Content.Load<Texture2D>("bubble-character");
             bubblePosition = new Rectangle((int)(width / 2), (int)(height / 2), (int)(bubbleSprite.Width * 0.5), (int)(bubbleSprite.Height * 0.5));
+
+            background = Content.Load<Texture2D>("CanyonDesert-BGStatic");
+            tileset = Content.Load<Texture2D>("tilesheetEDIT");
+
+            levelManager = new LevelManager(
+                background,
+                tileset,
+                _spriteBatch,
+                windowWidth,
+                windowHeight,
+                "../../../Content/gameJamTextureMapping.txt");
+            levelManager.LoadLevel("../../../Content/gameJamLevelFile.txt");
 
             // TODO: use this.Content to load your game content here
         }
@@ -87,6 +107,7 @@ namespace GameJam
             _spriteBatch.Begin();
 
             _spriteBatch.Draw(bubbleSprite, bubblePosition, Color.White);
+            levelManager.DisplayLevel();
 
             _spriteBatch.End();
 

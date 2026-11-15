@@ -130,3 +130,5 @@ C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\obj\Debug\ne
 C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\obj\Debug\net9.0\GameJam.pdb
 C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\obj\Debug\net9.0\GameJam.genruntimeconfig.cache
 C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\obj\Debug\net9.0\ref\GameJam.dll
+E:\School Stuff\TraffikJam\GameJam\bin\Debug\net9.0\Content\squished-bubble.xnb
+E:\School Stuff\TraffikJam\GameJam\bin\Debug\net9.0\Content\tilesheetEDIT.xnb

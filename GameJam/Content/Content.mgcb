@@ -52,6 +52,16 @@
 /processorParam:Version=3.8.5.1
 /build:CanyonDesert-BGstatic.png
 
+#begin gameJamLevelFile.txt
+/importer:
+/processor:
+/build:gameJamLevelFile.txt
+
+#begin gameJamTextureMapping.txt
+/importer:
+/processor:
+/build:gameJamTextureMapping.txt
+
 #begin needle.jpg
 /importer:TextureImporter
 /processor:TextureProcessor

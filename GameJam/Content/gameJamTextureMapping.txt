@@ -1,0 +1,11 @@
+﻿// Texture map information.
+// Uses the sprite sheet "TilesetPaid-CanyonDesertPlatformer.png"
+// Sprite size: 16 x 16
+// Dictates the row and column in the sprite sheet where the chosen image tile can be found.
+//
+// File format:
+// Name of tile type,row,column
+—--------------------------------------
+16,16
+—--------------------------------------
+BLOCK-v1,5,1

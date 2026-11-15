@@ -1,0 +1,9 @@
+﻿// Texture map information.
+// Uses the sprite sheet "TilesetPaid-CanyonDesertPlatformer.png"
+// Sprite size: 16 x 16
+// Dictates where the sprites are going to be placed
+//
+// File format:
+// Name of tile type,row,column
+-----------------------------------
+BLOCK-v1,1,1

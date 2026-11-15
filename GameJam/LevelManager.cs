@@ -53,9 +53,9 @@ namespace GameJam
             platforms = new List<GameObject>();
             textureMap = new Dictionary<string, Rectangle>();
 
-            spriteWidth = 0;
-            spriteHeight = 0;
-            intendedSize = 0;
+            spriteWidth = 16;
+            spriteHeight = 16;
+            intendedSize = 64;
 
             StreamReader reader = null!;
 
