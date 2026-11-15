@@ -53,14 +53,10 @@
 /build:CanyonDesert-BGstatic.png
 
 #begin gameJamLevelFile.txt
-/importer:
-/processor:
-/build:gameJamLevelFile.txt
+/copy:gameJamLevelFile.txt
 
 #begin gameJamTextureMapping.txt
-/importer:
-/processor:
-/build:gameJamTextureMapping.txt
+/copy:gameJamTextureMapping.txt
 
 #begin needle.jpg
 /importer:TextureImporter
