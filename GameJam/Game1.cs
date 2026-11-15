@@ -33,6 +33,11 @@ namespace GameJam
             _graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
             IsMouseVisible = true;
+
+            // Changes the size of the game window
+            _graphics.PreferredBackBufferWidth = 1280;
+            _graphics.PreferredBackBufferHeight = 512;
+            _graphics.ApplyChanges();
         }
 
         protected override void Initialize()

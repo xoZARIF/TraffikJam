@@ -23,6 +23,7 @@ namespace GameJam
         private int spriteWidth;
         private int spriteHeight;
         private int intendedSize;
+        private Rectangle backgroundSourceRctangle;
 
         // PROPERTY
         public List<GameObject> Platforms
@@ -56,6 +57,8 @@ namespace GameJam
             spriteWidth = 1;
             spriteHeight = 1;
             intendedSize = 64;
+
+            backgroundSourceRctangle = new Rectangle(0, 0, windowWidth, windowHeight);
 
             StreamReader reader = null!;
 
@@ -157,7 +160,7 @@ namespace GameJam
 
         public void DisplayLevel()
         {
-            _spriteBatch.Draw(backgroundAsset, Vector2.Zero, Color.White);
+            _spriteBatch.Draw(backgroundAsset, Vector2.Zero, backgroundSourceRctangle, Color.White, 0f, Vector2.Zero, 2f, SpriteEffects.None, 0f);
 
             foreach(GameObject block in platforms)
             {
