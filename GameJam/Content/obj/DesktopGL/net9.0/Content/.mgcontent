@@ -5,7 +5,13 @@
   <Config />
   <SourceFiles>
     <File>E:/School Stuff/TraffikJam/GameJam/Content/bubble-character.png</File>
+    <File>C:/Users/santa/Downloads/Paid-Background/CanyonDesert-BGstatic.png</File>
     <File>E:/School Stuff/TraffikJam/GameJam/Content/cacto run.png</File>
+    <File>E:/School Stuff/TraffikJam/GameJam/Content/CanyonDesert-BGlayer1.png</File>
+    <File>E:/School Stuff/TraffikJam/GameJam/Content/CanyonDesert-BGlayer2.png</File>
+    <File>E:/School Stuff/TraffikJam/GameJam/Content/CanyonDesert-BGlayer3.png</File>
+    <File>E:/School Stuff/TraffikJam/GameJam/Content/CanyonDesert-BGlayer4.png</File>
+    <File>E:/School Stuff/TraffikJam/GameJam/Content/CanyonDesert-BGlayer5.png</File>
     <File>E:/School Stuff/TraffikJam/GameJam/Content/CanyonDesert-BGstatic.png</File>
     <File>E:/School Stuff/TraffikJam/GameJam/Content/needle.jpg</File>
     <File>E:/School Stuff/TraffikJam/GameJam/Content/squished-bubble.png</File>
@@ -14,6 +20,12 @@
     <File>E:/School Stuff/TraffikJam/GameJam/Content/water-texture.jpg</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File>CanyonDesert-BGstatic.png</File>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

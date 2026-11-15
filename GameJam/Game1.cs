@@ -1,6 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using System.Collections.Generic;
 
 namespace GameJam
 {
@@ -26,6 +27,8 @@ namespace GameJam
 
         // Level
         private LevelManager levelManager;
+
+        private List<Texture2D> backgroundLayers;
         private Texture2D background;
         private Texture2D tileset;
 
@@ -48,6 +51,7 @@ namespace GameJam
 
             windowWidth = GraphicsDevice.Viewport.Width;
             windowHeight = GraphicsDevice.Viewport.Height;
+            backgroundLayers = new List<Texture2D>();
 
             base.Initialize();
         }
@@ -68,6 +72,13 @@ namespace GameJam
 
 
             background = Content.Load<Texture2D>("CanyonDesert-BGStatic");
+            backgroundLayers.Add(Content.Load<Texture2D>("CanyonDesert-BGStatic"));
+            backgroundLayers.Add(Content.Load<Texture2D>("CanyonDesert-BGlayer1"));
+            backgroundLayers.Add(Content.Load<Texture2D>("CanyonDesert-BGSlayer2"));
+            backgroundLayers.Add(Content.Load<Texture2D>("CanyonDesert-BGlayer3"));
+            backgroundLayers.Add(Content.Load<Texture2D>("CanyonDesert-BGlayer4"));
+            backgroundLayers.Add(Content.Load<Texture2D>("CanyonDesert-BGlayer5"));
+            backgroundLayers.Add(Content.Load<Texture2D>("CanyonDesert-BGlayer6"));
             tileset = Content.Load<Texture2D>("tilesheetEDIT");
 
             levelManager = new LevelManager(
