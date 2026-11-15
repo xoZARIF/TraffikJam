@@ -1,38 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\natha\\OneDrive\\Documents\\GitHub\\TraffikJam\\GameJam\\",
+  "WorkspaceRootPath": "C:\\Users\\zarif_8suk2oy\\OneDrive\\Documents\\GitHub\\TraffikJam\\GameJam\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7CC7D272-7950-48A6-A406-33A7F0606F8F}|GameJam.csproj|c:\\users\\natha\\onedrive\\documents\\github\\traffikjam\\gamejam\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7CC7D272-7950-48A6-A406-33A7F0606F8F}|GameJam.csproj|c:\\users\\zarif_8suk2oy\\onedrive\\documents\\github\\traffikjam\\gamejam\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7CC7D272-7950-48A6-A406-33A7F0606F8F}|GameJam.csproj|solutionrelative:player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CC7D272-7950-48A6-A406-33A7F0606F8F}|GameJam.csproj|c:\\users\\natha\\onedrive\\documents\\github\\traffikjam\\gamejam\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7CC7D272-7950-48A6-A406-33A7F0606F8F}|GameJam.csproj|c:\\users\\zarif_8suk2oy\\onedrive\\documents\\github\\traffikjam\\gamejam\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7CC7D272-7950-48A6-A406-33A7F0606F8F}|GameJam.csproj|solutionrelative:game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CC7D272-7950-48A6-A406-33A7F0606F8F}|GameJam.csproj|c:\\users\\natha\\onedrive\\documents\\github\\traffikjam\\gamejam\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CC7D272-7950-48A6-A406-33A7F0606F8F}|GameJam.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7CC7D272-7950-48A6-A406-33A7F0606F8F}|GameJam.csproj|c:\\users\\natha\\onedrive\\documents\\github\\traffikjam\\gamejam\\enemymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CC7D272-7950-48A6-A406-33A7F0606F8F}|GameJam.csproj|solutionrelative:enemymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7CC7D272-7950-48A6-A406-33A7F0606F8F}|GameJam.csproj|c:\\users\\natha\\onedrive\\documents\\github\\traffikjam\\gamejam\\block.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CC7D272-7950-48A6-A406-33A7F0606F8F}|GameJam.csproj|solutionrelative:block.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7CC7D272-7950-48A6-A406-33A7F0606F8F}|GameJam.csproj|c:\\users\\natha\\onedrive\\documents\\github\\traffikjam\\gamejam\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7CC7D272-7950-48A6-A406-33A7F0606F8F}|GameJam.csproj|c:\\users\\zarif_8suk2oy\\onedrive\\documents\\github\\traffikjam\\gamejam\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7CC7D272-7950-48A6-A406-33A7F0606F8F}|GameJam.csproj|solutionrelative:enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CC7D272-7950-48A6-A406-33A7F0606F8F}|GameJam.csproj|c:\\users\\natha\\onedrive\\documents\\github\\traffikjam\\gamejam\\gameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7CC7D272-7950-48A6-A406-33A7F0606F8F}|GameJam.csproj|c:\\users\\zarif_8suk2oy\\onedrive\\documents\\github\\traffikjam\\gamejam\\collisionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CC7D272-7950-48A6-A406-33A7F0606F8F}|GameJam.csproj|solutionrelative:collisionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CC7D272-7950-48A6-A406-33A7F0606F8F}|GameJam.csproj|c:\\users\\zarif_8suk2oy\\onedrive\\documents\\github\\traffikjam\\gamejam\\enemymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CC7D272-7950-48A6-A406-33A7F0606F8F}|GameJam.csproj|solutionrelative:enemymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CC7D272-7950-48A6-A406-33A7F0606F8F}|GameJam.csproj|c:\\users\\zarif_8suk2oy\\onedrive\\documents\\github\\traffikjam\\gamejam\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CC7D272-7950-48A6-A406-33A7F0606F8F}|GameJam.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CC7D272-7950-48A6-A406-33A7F0606F8F}|GameJam.csproj|c:\\users\\zarif_8suk2oy\\onedrive\\documents\\github\\traffikjam\\gamejam\\gameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7CC7D272-7950-48A6-A406-33A7F0606F8F}|GameJam.csproj|solutionrelative:gameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CC7D272-7950-48A6-A406-33A7F0606F8F}|GameJam.csproj|c:\\users\\natha\\onedrive\\documents\\github\\traffikjam\\gamejam\\collisionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CC7D272-7950-48A6-A406-33A7F0606F8F}|GameJam.csproj|solutionrelative:collisionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7CC7D272-7950-48A6-A406-33A7F0606F8F}|GameJam.csproj|c:\\users\\zarif_8suk2oy\\onedrive\\documents\\github\\traffikjam\\gamejam\\block.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CC7D272-7950-48A6-A406-33A7F0606F8F}|GameJam.csproj|solutionrelative:block.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\zarif_8suk2oy\\Downloads\\light_sand_template.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
@@ -45,21 +45,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Game1.cs",
-              "DocumentMoniker": "C:\\Users\\natha\\OneDrive\\Documents\\GitHub\\TraffikJam\\GameJam\\Game1.cs",
+              "DocumentMoniker": "C:\\Users\\zarif_8suk2oy\\OneDrive\\Documents\\GitHub\\TraffikJam\\GameJam\\Game1.cs",
               "RelativeDocumentMoniker": "Game1.cs",
-              "ToolTip": "C:\\Users\\natha\\OneDrive\\Documents\\GitHub\\TraffikJam\\GameJam\\Game1.cs",
+              "ToolTip": "C:\\Users\\zarif_8suk2oy\\OneDrive\\Documents\\GitHub\\TraffikJam\\GameJam\\Game1.cs",
               "RelativeToolTip": "Game1.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAgwEIAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAACDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-15T01:07:23.12Z",
               "EditorCaption": ""
@@ -68,58 +64,61 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\natha\\OneDrive\\Documents\\GitHub\\TraffikJam\\GameJam\\Player.cs",
+              "DocumentMoniker": "C:\\Users\\zarif_8suk2oy\\OneDrive\\Documents\\GitHub\\TraffikJam\\GameJam\\Player.cs",
               "RelativeDocumentMoniker": "Player.cs",
-              "ToolTip": "C:\\Users\\natha\\OneDrive\\Documents\\GitHub\\TraffikJam\\GameJam\\Player.cs",
+              "ToolTip": "C:\\Users\\zarif_8suk2oy\\OneDrive\\Documents\\GitHub\\TraffikJam\\GameJam\\Player.cs",
               "RelativeToolTip": "Player.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAwwF8AAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-14T23:37:19.241Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\natha\\OneDrive\\Documents\\GitHub\\TraffikJam\\GameJam\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\zarif_8suk2oy\\OneDrive\\Documents\\GitHub\\TraffikJam\\GameJam\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\natha\\OneDrive\\Documents\\GitHub\\TraffikJam\\GameJam\\Program.cs",
+              "ToolTip": "C:\\Users\\zarif_8suk2oy\\OneDrive\\Documents\\GitHub\\TraffikJam\\GameJam\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-15T00:55:16.128Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EnemyManager.cs",
-              "DocumentMoniker": "C:\\Users\\natha\\OneDrive\\Documents\\GitHub\\TraffikJam\\GameJam\\EnemyManager.cs",
-              "RelativeDocumentMoniker": "EnemyManager.cs",
-              "ToolTip": "C:\\Users\\natha\\OneDrive\\Documents\\GitHub\\TraffikJam\\GameJam\\EnemyManager.cs",
-              "RelativeToolTip": "EnemyManager.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAswCcAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-15T00:36:10.796Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Enemy.cs",
-              "DocumentMoniker": "C:\\Users\\natha\\OneDrive\\Documents\\GitHub\\TraffikJam\\GameJam\\Enemy.cs",
-              "RelativeDocumentMoniker": "Enemy.cs",
-              "ToolTip": "C:\\Users\\natha\\OneDrive\\Documents\\GitHub\\TraffikJam\\GameJam\\Enemy.cs",
-              "RelativeToolTip": "Enemy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-14T23:37:19.192Z"
+              "WhenOpened": "2026-11-15T00:55:16.128Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "EnemyManager.cs",
+              "DocumentMoniker": "C:\\Users\\zarif_8suk2oy\\OneDrive\\Documents\\GitHub\\TraffikJam\\GameJam\\EnemyManager.cs",
+              "RelativeDocumentMoniker": "EnemyManager.cs",
+              "ToolTip": "C:\\Users\\zarif_8suk2oy\\OneDrive\\Documents\\GitHub\\TraffikJam\\GameJam\\EnemyManager.cs",
+              "RelativeToolTip": "EnemyManager.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAswCcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-15T00:36:10.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "C:\\Users\\zarif_8suk2oy\\OneDrive\\Documents\\GitHub\\TraffikJam\\GameJam\\Enemy.cs",
+              "RelativeDocumentMoniker": "Enemy.cs",
+              "ToolTip": "C:\\Users\\zarif_8suk2oy\\OneDrive\\Documents\\GitHub\\TraffikJam\\GameJam\\Enemy.cs",
+              "RelativeToolTip": "Enemy.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAYwDwAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-14T23:37:19.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Block.cs",
-              "DocumentMoniker": "C:\\Users\\natha\\OneDrive\\Documents\\GitHub\\TraffikJam\\GameJam\\Block.cs",
+              "DocumentMoniker": "C:\\Users\\zarif_8suk2oy\\OneDrive\\Documents\\GitHub\\TraffikJam\\GameJam\\Block.cs",
               "RelativeDocumentMoniker": "Block.cs",
-              "ToolTip": "C:\\Users\\natha\\OneDrive\\Documents\\GitHub\\TraffikJam\\GameJam\\Block.cs",
+              "ToolTip": "C:\\Users\\zarif_8suk2oy\\OneDrive\\Documents\\GitHub\\TraffikJam\\GameJam\\Block.cs",
               "RelativeToolTip": "Block.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAwwBcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -129,9 +128,9 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "GameObject.cs",
-              "DocumentMoniker": "C:\\Users\\natha\\OneDrive\\Documents\\GitHub\\TraffikJam\\GameJam\\GameObject.cs",
+              "DocumentMoniker": "C:\\Users\\zarif_8suk2oy\\OneDrive\\Documents\\GitHub\\TraffikJam\\GameJam\\GameObject.cs",
               "RelativeDocumentMoniker": "GameObject.cs",
-              "ToolTip": "C:\\Users\\natha\\OneDrive\\Documents\\GitHub\\TraffikJam\\GameJam\\GameObject.cs",
+              "ToolTip": "C:\\Users\\zarif_8suk2oy\\OneDrive\\Documents\\GitHub\\TraffikJam\\GameJam\\GameObject.cs",
               "RelativeToolTip": "GameObject.cs",
               "ViewState": "AgIAAEsAAAAAAAAAAAAQwFUAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -139,24 +138,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "CollisionManager.cs",
-              "DocumentMoniker": "C:\\Users\\natha\\OneDrive\\Documents\\GitHub\\TraffikJam\\GameJam\\CollisionManager.cs",
+              "DocumentMoniker": "C:\\Users\\zarif_8suk2oy\\OneDrive\\Documents\\GitHub\\TraffikJam\\GameJam\\CollisionManager.cs",
               "RelativeDocumentMoniker": "CollisionManager.cs",
-              "ToolTip": "C:\\Users\\natha\\OneDrive\\Documents\\GitHub\\TraffikJam\\GameJam\\CollisionManager.cs",
+              "ToolTip": "C:\\Users\\zarif_8suk2oy\\OneDrive\\Documents\\GitHub\\TraffikJam\\GameJam\\CollisionManager.cs",
               "RelativeToolTip": "CollisionManager.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-14T23:37:19.245Z"
+              "WhenOpened": "2026-11-14T23:37:19.245Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "light_sand_template.jpg",
               "DocumentMoniker": "C:\\Users\\zarif_8suk2oy\\Downloads\\light_sand_template.jpg",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\zarif_8suk2oy\\Downloads\\light_sand_template.jpg",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Downloads\\light_sand_template.jpg",
               "ToolTip": "C:\\Users\\zarif_8suk2oy\\Downloads\\light_sand_template.jpg",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\zarif_8suk2oy\\Downloads\\light_sand_template.jpg",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Downloads\\light_sand_template.jpg",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
               "WhenOpened": "2026-11-14T00:28:00.341Z"
             }

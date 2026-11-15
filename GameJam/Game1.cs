@@ -86,7 +86,7 @@ namespace GameJam
             // create enemy and add to manager
             Enemy enemy = new Enemy(
                 cactusSprite,
-                new Rectangle((int)(width / 2), (int)(height / 2), (int)(bubbleSprite.Width * 0.5), (int)(bubbleSprite.Height * 0.5)), // starting pos placeholder
+                new Rectangle((int)(width / 2), (int)(height / 2), (int)(bubbleSprite.Width * 0.8), (int)(bubbleSprite.Height * 0.8)), // starting pos placeholder
                 30, // block size placeholder
                 GraphicsDevice.Viewport.Width,
                 GraphicsDevice.Viewport.Height);
