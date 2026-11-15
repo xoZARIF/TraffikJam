@@ -83,6 +83,6 @@ namespace GameJam
                 Color.White);
         }
 
-        public abstract void Update(GameTime gameTime, bool debugMode);
+        public abstract void Update(GameTime gameTime);
     }
 }

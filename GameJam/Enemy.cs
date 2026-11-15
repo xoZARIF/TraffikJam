@@ -58,7 +58,7 @@ namespace GameJam
         }
 
         // update enemy state accordingly
-        public override void Update(GameTime gameTime, bool debugMode)
+        public override void Update(GameTime gameTime)
         {
             // left and right movement
             if (facingRight)
