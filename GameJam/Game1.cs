@@ -15,7 +15,8 @@ namespace GameJam
         private Rectangle bubblePosition;
 
         // Enemy
-        // private EnemyManager enemyManager;
+        private EnemyManager enemyManager;
+        private Texture2D cactusSprite;
 
         // Window Dimensions
         private int windowWidth;
@@ -42,8 +43,11 @@ namespace GameJam
             // TODO: Add your initialization logic here
 
             base.Initialize();
-        }
 
+            // initialize enemy manager
+            enemyManager = new EnemyManager();
+        }
+      
         protected override void LoadContent()
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
@@ -66,6 +70,19 @@ namespace GameJam
             levelManager.LoadLevel("../../../Content/gameJamLevelFile.txt");
 
             // TODO: use this.Content to load your game content here
+
+            // Load cactus spritesheet
+            cactusSprite = Content.Load<Texture2D>("cacto run");
+
+            // create enemy and add to manager
+            Enemy enemy = new Enemy(
+                cactusSprite,
+                new Rectangle(100, 100, 100, 100), // starting pos placeholder
+                30, // block size placeholder
+                GraphicsDevice.Viewport.Width,
+                GraphicsDevice.Viewport.Height);
+
+            enemyManager.AddEnemy(enemy);
         }
 
         protected override void Update(GameTime gameTime)
@@ -97,6 +114,9 @@ namespace GameJam
 
             // TODO: Add your update logic here
 
+            // update enemy
+            enemyManager.Update(gameTime);
+
             base.Update(gameTime);
         }
 
@@ -108,6 +128,9 @@ namespace GameJam
 
             _spriteBatch.Draw(bubbleSprite, bubblePosition, Color.White);
             levelManager.DisplayLevel();
+
+            // draw enemy
+            enemyManager.Draw(_spriteBatch);
 
             _spriteBatch.End();
 
