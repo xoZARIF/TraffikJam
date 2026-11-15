@@ -129,11 +129,11 @@ namespace GameJam
                         platforms.Add(new Block(
                             tileAsset,
                             new Rectangle(
-                                intendedSize * int.Parse(splitData[3]),
                                 intendedSize * int.Parse(splitData[2]),
+                                intendedSize * int.Parse(splitData[1]),
                                 intendedSize,
                                 intendedSize),
-                            textureMap[splitData[1]],
+                            textureMap[splitData[0]],
                             1,
                             windowWidth,
                             windowHeight));
