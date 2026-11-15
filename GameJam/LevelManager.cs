@@ -216,9 +216,9 @@ namespace GameJam
                 }
             }
             
-            if (worldPosition.X > backgroundAssets[4].Width - 1280)
+            if (worldPosition.X > backgroundAssets[1].Width - 1280)
             {
-                worldPosition.X = backgroundAssets[4].Width - 1280;
+                worldPosition.X = backgroundAssets[1].Width - 1280;
 
                 foreach (GameObject block in platforms)
                 {

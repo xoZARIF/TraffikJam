@@ -4,18 +4,18 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/zarif_8suk2oy/OneDrive/Documents/GitHub/TraffikJam/GameJam/Content/bubble-character.png</File>
-    <File>C:/Users/zarif_8suk2oy/OneDrive/Documents/GitHub/TraffikJam/GameJam/Content/cacto run.png</File>
-    <File>C:/Users/zarif_8suk2oy/OneDrive/Documents/GitHub/TraffikJam/GameJam/Content/CanyonDesert-BGlayer1.png</File>
-    <File>C:/Users/zarif_8suk2oy/OneDrive/Documents/GitHub/TraffikJam/GameJam/Content/layer2.png</File>
-    <File>C:/Users/zarif_8suk2oy/OneDrive/Documents/GitHub/TraffikJam/GameJam/Content/layer3.png</File>
-    <File>C:/Users/zarif_8suk2oy/OneDrive/Documents/GitHub/TraffikJam/GameJam/Content/layer4.png</File>
-    <File>C:/Users/zarif_8suk2oy/OneDrive/Documents/GitHub/TraffikJam/GameJam/Content/layer5.png</File>
-    <File>C:/Users/zarif_8suk2oy/OneDrive/Documents/GitHub/TraffikJam/GameJam/Content/needle.jpg</File>
-    <File>C:/Users/zarif_8suk2oy/OneDrive/Documents/GitHub/TraffikJam/GameJam/Content/squished-bubble.png</File>
-    <File>C:/Users/zarif_8suk2oy/OneDrive/Documents/GitHub/TraffikJam/GameJam/Content/TilesetPaid-CanyonDesertPlatformer.png</File>
-    <File>C:/Users/zarif_8suk2oy/OneDrive/Documents/GitHub/TraffikJam/GameJam/Content/tilesheetEDIT.png</File>
-    <File>C:/Users/zarif_8suk2oy/OneDrive/Documents/GitHub/TraffikJam/GameJam/Content/water-texture.jpg</File>
+    <File>E:/School Stuff/TraffikJam/GameJam/Content/bubble-character.png</File>
+    <File>E:/School Stuff/TraffikJam/GameJam/Content/cacto run.png</File>
+    <File>E:/School Stuff/TraffikJam/GameJam/Content/CanyonDesert-BGlayer1.png</File>
+    <File>E:/School Stuff/TraffikJam/GameJam/Content/layer2.png</File>
+    <File>E:/School Stuff/TraffikJam/GameJam/Content/layer3.png</File>
+    <File>E:/School Stuff/TraffikJam/GameJam/Content/layer4.png</File>
+    <File>E:/School Stuff/TraffikJam/GameJam/Content/layer5.png</File>
+    <File>E:/School Stuff/TraffikJam/GameJam/Content/needle.jpg</File>
+    <File>E:/School Stuff/TraffikJam/GameJam/Content/squished-bubble.png</File>
+    <File>E:/School Stuff/TraffikJam/GameJam/Content/TilesetPaid-CanyonDesertPlatformer.png</File>
+    <File>E:/School Stuff/TraffikJam/GameJam/Content/tilesheetEDIT.png</File>
+    <File>E:/School Stuff/TraffikJam/GameJam/Content/water-texture.jpg</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />
