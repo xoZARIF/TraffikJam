@@ -134,3 +134,5 @@ E:\School Stuff\TraffikJam\GameJam\bin\Debug\net9.0\Content\squished-bubble.xnb
 E:\School Stuff\TraffikJam\GameJam\bin\Debug\net9.0\Content\tilesheetEDIT.xnb
 E:\School Stuff\TraffikJam\GameJam\bin\Debug\net9.0\Content\gameJamLevelFile.txt
 E:\School Stuff\TraffikJam\GameJam\bin\Debug\net9.0\Content\gameJamTextureMapping.txt
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\Content\gameJamLevelFile.txt
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\Content\gameJamTextureMapping.txt

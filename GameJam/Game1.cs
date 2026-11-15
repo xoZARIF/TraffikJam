@@ -42,8 +42,6 @@ namespace GameJam
             base.Initialize();
             windowWidth = this.GraphicsDevice.Viewport.Width;
             windowHeight = this.GraphicsDevice.Viewport.Height;
-            // initialize enemy manager
-            enemyManager = new EnemyManager();
         }
       
         protected override void LoadContent()
@@ -79,8 +77,9 @@ namespace GameJam
                 30, // block size placeholder
                 GraphicsDevice.Viewport.Width,
                 GraphicsDevice.Viewport.Height);
-            enemyManager = new EnemyManager();
 
+            // initialize enemy manager
+            enemyManager = new EnemyManager();
             enemyManager.AddEnemy(enemy);
         }
 
