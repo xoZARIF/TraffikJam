@@ -39,9 +39,10 @@ namespace GameJam
         {
             // TODO: Add your initialization logic here
 
+            windowWidth = GraphicsDevice.Viewport.Width;
+            windowHeight = GraphicsDevice.Viewport.Height;
+
             base.Initialize();
-            windowWidth = this.GraphicsDevice.Viewport.Width;
-            windowHeight = this.GraphicsDevice.Viewport.Height;
         }
       
         protected override void LoadContent()

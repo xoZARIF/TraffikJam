@@ -6,4 +6,4 @@
 // File format:
 // Name of tile type,row,column
 -----------------------------------
-BLOCK-v1,1,1
+BLOCK-v1,1,0
