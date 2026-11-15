@@ -77,7 +77,6 @@ C:\Users\natha\OneDrive\Documents\GitHub\TraffikJam\GameJam\obj\Debug\net9.0\ref
 E:\School Stuff\TraffikJam\GameJam\bin\Debug\net9.0\Content\cacto run.xnb
 E:\School Stuff\TraffikJam\GameJam\bin\Debug\net9.0\Content\CanyonDesert-BGstatic.xnb
 E:\School Stuff\TraffikJam\GameJam\bin\Debug\net9.0\GameJam.runtimeconfig.dev.json
-<<<<<<< Updated upstream
 C:\Users\natha\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\Content\bubble-character.xnb
 C:\Users\natha\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\Content\cacto run.xnb
 C:\Users\natha\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\Content\CanyonDesert-BGstatic.xnb
@@ -86,7 +85,8 @@ C:\Users\natha\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\Con
 E:\School Stuff\TraffikJam\GameJam\bin\Debug\net9.0\Content\bubble-character.xnb
 E:\School Stuff\TraffikJam\GameJam\bin\Debug\net9.0\Content\needle.xnb
 E:\School Stuff\TraffikJam\GameJam\bin\Debug\net9.0\Content\water-texture.xnb
-=======
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\Content\squished-bubble.xnb
+C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\Content\tilesheetEDIT.xnb
 C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\Content\bubble-character.xnb
 C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\Content\cacto run.xnb
 C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\Content\CanyonDesert-BGstatic.xnb
@@ -130,6 +130,3 @@ C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\obj\Debug\ne
 C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\obj\Debug\net9.0\GameJam.pdb
 C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\obj\Debug\net9.0\GameJam.genruntimeconfig.cache
 C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\obj\Debug\net9.0\ref\GameJam.dll
->>>>>>> Stashed changes
-C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\Content\squished-bubble.xnb
-C:\Users\zarif_8suk2oy\OneDrive\Documents\GitHub\TraffikJam\GameJam\bin\Debug\net9.0\Content\tilesheetEDIT.xnb
