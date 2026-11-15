@@ -2,7 +2,7 @@ Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Siz
 "E:/School Stuff/TraffikJam/GameJam/Content/bubble-character.png","E:/School Stuff/TraffikJam/GameJam/Content/bin/DesktopGL/Content/bubble-character.xnb","TextureProcessor","Texture2DContent",846,25685,0.2035011
 "E:/School Stuff/TraffikJam/GameJam/Content/cacto run.png","E:/School Stuff/TraffikJam/GameJam/Content/bin/DesktopGL/Content/cacto run.xnb","TextureProcessor","Texture2DContent",472,4181,0.0320769
 "E:/School Stuff/TraffikJam/GameJam/Content/CanyonDesert-BGstatic.png","E:/School Stuff/TraffikJam/GameJam/Content/bin/DesktopGL/Content/CanyonDesert-BGstatic.xnb","TextureProcessor","Texture2DContent",15014,655445,0.0791308
-"E:/School Stuff/TraffikJam/GameJam/Content/gameJamLevelFile.txt","E:\School Stuff\TraffikJam\GameJam\Content\bin\DesktopGL\Content\gameJamLevelFile.txt","CopyItem","File",353,353,0.0026119
+"E:/School Stuff/TraffikJam/GameJam/Content/gameJamLevelFile.txt","E:\School Stuff\TraffikJam\GameJam\Content\bin\DesktopGL\Content\gameJamLevelFile.txt","CopyItem","File",557,557,0.0013027
 "E:/School Stuff/TraffikJam/GameJam/Content/gameJamTextureMapping.txt","E:\School Stuff\TraffikJam\GameJam\Content\bin\DesktopGL\Content\gameJamTextureMapping.txt","CopyItem","File",373,373,0.0023876
 "E:/School Stuff/TraffikJam/GameJam/Content/needle.jpg","E:/School Stuff/TraffikJam/GameJam/Content/bin/DesktopGL/Content/needle.xnb","TextureProcessor","Texture2DContent",1959,141085,0.06201
 "E:/School Stuff/TraffikJam/GameJam/Content/squished-bubble.png","E:/School Stuff/TraffikJam/GameJam/Content/bin/DesktopGL/Content/squished-bubble.xnb","TextureProcessor","Texture2DContent",1690,10645,0.0503473
