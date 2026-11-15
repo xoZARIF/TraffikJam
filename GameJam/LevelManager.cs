@@ -1,5 +1,6 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Input;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -175,6 +176,42 @@ namespace GameJam
                 block.Draw(_spriteBatch);
             }
 
+        }
+
+        public void UpdateLevel(GameTime gameTime)
+        {
+            KeyboardState currentState = Keyboard.GetState();
+
+            if (currentState.IsKeyDown(Keys.Right))
+            {
+                for (int r = 0; r < 4; r++)
+                {
+                    if (backgroundSourceRctangle[r+1].X > backgroundAssets[r+1].Width - 1280)
+                    {
+                        backgroundSourceRctangle[r+1] = new Rectangle(backgroundAssets[r+1].Width - 1280, 0, windowWidth, windowHeight);
+                    }
+                    else
+                    {
+                        backgroundSourceRctangle[r+1] = new Rectangle(backgroundSourceRctangle[r+1].X + r+1, 0, windowWidth, windowHeight);
+                    }
+                }
+            }
+
+            if (currentState.IsKeyDown(Keys.Left))
+            {
+
+                for (int r = 0; r < 4; r++)
+                {
+                    if (backgroundSourceRctangle[r + 1].X < 0)
+                    {
+                        backgroundSourceRctangle[r + 1] = new Rectangle(0, 0, windowWidth, windowHeight);
+                    }
+                    else
+                    {
+                        backgroundSourceRctangle[r + 1] = new Rectangle(backgroundSourceRctangle[r + 1].X - (r + 1), 0, windowWidth, windowHeight);
+                    }
+                }
+            }
         }
     }
 

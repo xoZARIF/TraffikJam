@@ -29,7 +29,6 @@ namespace GameJam
         private LevelManager levelManager;
 
         private List<Texture2D> backgroundLayers;
-        private Texture2D background;
         private Texture2D tileset;
 
 
@@ -138,6 +137,8 @@ namespace GameJam
 
             // update enemy
             enemyManager.Update(gameTime);
+
+            levelManager.UpdateLevel(gameTime);
 
             base.Update(gameTime);
         }
